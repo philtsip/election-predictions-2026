@@ -175,11 +175,33 @@ async function kalshiBySeries(seriesTicker: string): Promise<KalshiMarket[]> {
 }
 
 function kalshiPickDem(markets: KalshiMarket[]): KalshiMarket | null {
-  for (const m of markets) {
+  // Kalshi often has both 2026 and 2028 cycles under the same series. Prefer
+  // 2026 — match either the event_ticker ending in -26 or the market ticker
+  // containing -26-.
+  const matches = markets.filter((m) => {
     const sub = (m.yes_sub_title || "").toLowerCase();
-    if (sub.includes("democrat")) return m;
+    return sub.includes("democrat");
+  });
+  if (matches.length === 0) {
+    // Fall back to ticker-suffix matching: party-control markets sometimes use
+    // candidate sub-titles (e.g. "Roy Cooper") but the ticker still ends in -D.
+    const dByTicker = markets.filter(
+      (m) => /-26-D$/.test(m.ticker) || /-26[A-Z]*-D$/.test(m.ticker),
+    );
+    if (dByTicker.length > 0) return dByTicker[0];
+    return null;
   }
-  return null;
+  const yr26 = matches.find(
+    (m) => /-26$/.test(m.event_ticker) || /-26-/.test(m.ticker),
+  );
+  return yr26 || matches[0];
+}
+
+function kalshiPickDemTickerOnly(markets: KalshiMarket[]): KalshiMarket | null {
+  // For 2026 races, fall back to picking the ticker ending in -D for cycle 26.
+  return markets.find(
+    (m) => /-26-D$/.test(m.ticker) || /-26[A-Z]*-D$/.test(m.ticker),
+  ) || null;
 }
 
 function kalshiRef(
@@ -241,7 +263,6 @@ async function findPolymarketHouse(state: string, district: number): Promise<Pro
 }
 
 async function findKalshiSenate(state: string): Promise<ProviderRef | null> {
-  // Try party-level series first (cleaner D/R split), then candidate-level
   const candidates = [
     `SENATEPARTY-${state}`,
     `SENATEPARTY${state}`,
@@ -251,11 +272,23 @@ async function findKalshiSenate(state: string): Promise<ProviderRef | null> {
     const markets = await kalshiBySeries(series);
     const dem = kalshiPickDem(markets);
     if (dem) {
-      const conf: "high" | "medium" = series.startsWith("SENATEPARTY") ? "high" : "medium";
-      const note = series.startsWith("SENATEPARTY")
-        ? `party-level series ${series}`
-        : `candidate-level series ${series}; Democrat market matched by sub-title`;
-      return kalshiRef(dem, series, conf, note);
+      const sub = (dem.yes_sub_title || "").toLowerCase();
+      const isParty = sub.includes("party");
+      return kalshiRef(
+        dem, series,
+        isParty ? "high" : "medium",
+        isParty
+          ? `party-level market in series ${series}`
+          : `candidate-level market in series ${series} (yes_sub_title="${dem.yes_sub_title}"); verify candidate is Democratic nominee`,
+      );
+    }
+    // Some 2026 markets only label by candidate name. Fall back to ticker -D.
+    const dByTic = kalshiPickDemTickerOnly(markets);
+    if (dByTic) {
+      return kalshiRef(
+        dByTic, series, "medium",
+        `candidate-level market in series ${series}, picked by ticker -D suffix (sub-title was "${dByTic.yes_sub_title}")`,
+      );
     }
   }
   return null;
