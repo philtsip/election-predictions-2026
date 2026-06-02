@@ -1,6 +1,8 @@
 import type { MarketRef, Race } from "@/lib/types";
 import { raceKey, raceLabel } from "@/lib/types";
-import { useOdds } from "@/lib/useOdds";
+import { usePolymarketOdds } from "@/lib/useOdds";
+import { useKalshiBatch } from "@/lib/kalshiBatch";
+import { kalshiDemProb } from "@/lib/kalshi";
 import { ProbBar } from "./ProbBar";
 import { CandidateSheet } from "./CandidateSheet";
 import { cn } from "@/lib/cn";
@@ -13,8 +15,9 @@ interface Props {
 
 export function RaceRow({ race, poly, kalshi }: Props) {
   const key = raceKey(race);
-  const polyOdds = useOdds("polymarket", poly, key);
-  const kalshiOdds = useOdds("kalshi", kalshi, key);
+  const polyOdds = usePolymarketOdds(poly, key);
+  const { byTicker, isLoading: kalshiLoading } = useKalshiBatch();
+  const kalshiProb = kalshiDemProb(kalshi, byTicker);
 
   const incumbent = race.candidates.find((c) => c.is_incumbent);
 
@@ -48,10 +51,7 @@ export function RaceRow({ race, poly, kalshi }: Props) {
       </div>
 
       <div className="min-w-0">
-        <ProbBar
-          poly={polyOdds.data?.dem_prob}
-          kalshi={kalshiOdds.data?.dem_prob}
-        />
+        <ProbBar poly={polyOdds.data?.dem_prob} kalshi={kalshiProb} />
       </div>
 
       <div className="flex items-center gap-3 sm:gap-5 tabular text-right">
@@ -64,8 +64,8 @@ export function RaceRow({ race, poly, kalshi }: Props) {
         />
         <OddsCell
           label="K"
-          value={kalshiOdds.data?.dem_prob}
-          loading={kalshiOdds.isLoading}
+          value={kalshiProb}
+          loading={kalshiLoading}
           color="text-foreground"
           markerColor="bg-[hsl(150_65%_47%)]"
         />

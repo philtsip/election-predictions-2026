@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Switch } from "@/components/ui/switch";
 import { ChamberCard } from "@/components/ChamberCard";
 import { ChamberSection } from "@/components/ChamberSection";
+import { KalshiBatchProvider } from "@/lib/kalshiBatch";
 import { useMarkets, useRaces } from "@/lib/useData";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
   const marketsQ = useMarkets();
 
   return (
+    <KalshiBatchProvider markets={marketsQ.data}>
     <div className="min-h-screen pb-24">
       <Header includeLean={includeLean} onIncludeLeanChange={setIncludeLean} />
 
@@ -53,6 +55,7 @@ export default function App() {
 
       <Footer />
     </div>
+    </KalshiBatchProvider>
   );
 }
 
