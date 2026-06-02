@@ -57,14 +57,14 @@ export function ChamberCard({ chamber, markets }: Props) {
             markerColor="bg-[hsl(215_90%_60%)]"
             value={poly}
             loading={polyOdds.isLoading}
-            url={markets?.polymarket?.url}
+            url={markets?.polymarket?.market_url}
           />
           <Reading
             label="Kalshi"
             markerColor="bg-[hsl(280_90%_65%)]"
             value={kalshi}
             loading={kalshiOdds.isLoading}
-            url={markets?.kalshi?.url}
+            url={markets?.kalshi?.market_url}
           />
         </div>
       </div>

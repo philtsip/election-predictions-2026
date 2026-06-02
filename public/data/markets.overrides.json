@@ -1,7 +1,4 @@
 {
-  "chamber_control": {
-    "senate": { "polymarket": null, "kalshi": null },
-    "house": { "polymarket": null, "kalshi": null }
-  },
+  "chamber_control": {},
   "races": {}
 }

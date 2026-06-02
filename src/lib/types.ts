@@ -25,16 +25,28 @@ export interface Race {
   candidates: Candidate[];
 }
 
+/**
+ * Shape produced by scripts/discover-markets.ts. The dashboard reads:
+ *  - dem_outcome.clob_token_id (Polymarket) / dem_outcome.ticker (Kalshi)
+ *    to fetch the live "Democrat wins" price
+ *  - market_url for the clickable link
+ */
 export interface MarketRef {
+  provider?: Provider;
   market_id?: string;
-  slug?: string;
+  market_slug?: string;
+  event_slug?: string;
   ticker?: string;
-  url: string;
+  market_url?: string;
   dem_outcome: {
+    type?: string;
     /** Polymarket: clobTokenId for the "Democrat wins" outcome */
     clob_token_id?: string;
-    /** Kalshi: the ticker variant or "yes"/"no" side that resolves to Dem win */
-    kalshi_ticker?: string;
+    market_slug?: string;
+    market_id?: string;
+    /** Kalshi: the ticker that resolves YES to a Dem win */
+    ticker?: string;
+    /** If "no", we invert the YES price; default treats YES as Dem-win. */
     side?: "yes" | "no";
   };
   confidence?: "high" | "medium" | "low";

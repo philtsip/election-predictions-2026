@@ -14,7 +14,7 @@ export async function fetchPolymarketDemProb(
   market: MarketRef
 ): Promise<OddsPoint> {
   const fetchedAt = Date.now();
-  const sourceUrl = market.url;
+  const sourceUrl = market.market_url ?? "";
 
   const tokenId = market.dem_outcome.clob_token_id;
   if (tokenId) {
@@ -30,15 +30,14 @@ export async function fetchPolymarketDemProb(
     }
   }
 
-  const idOrSlug =
-    market.market_id ??
-    (market.slug ? `?slug=${encodeURIComponent(market.slug)}` : null);
-  if (!idOrSlug) {
+  const slug = market.dem_outcome.market_slug ?? market.market_slug;
+  const marketId = market.dem_outcome.market_id ?? market.market_id;
+  if (!marketId && !slug) {
     return { dem_prob: null, fetched_at: fetchedAt, source_url: sourceUrl };
   }
-  const url = market.market_id
-    ? `${GAMMA_BASE}/markets/${market.market_id}`
-    : `${GAMMA_BASE}/markets${idOrSlug}`;
+  const url = marketId
+    ? `${GAMMA_BASE}/markets/${marketId}`
+    : `${GAMMA_BASE}/markets?slug=${encodeURIComponent(slug!)}`;
   const r = await fetch(url);
   if (!r.ok) {
     return { dem_prob: null, fetched_at: fetchedAt, source_url: sourceUrl };

@@ -99,11 +99,27 @@ async function polyGetEvent(slug: string): Promise<PolyEvent | null> {
 }
 
 function polyPickDem(event: PolyEvent): PolyMarket | null {
+  // First preference: a party-level sub-market ("Democrat" / "Democratic Party").
   for (const m of event.markets || []) {
     const g = (m.groupItemTitle || "").toLowerCase();
-    if (g === "democrat" || g === "democratic party") return m;
+    if (g === "democrat" || g === "democratic party" || g === "democrats") return m;
   }
-  return null;
+  // Some events only list individual candidates with party suffix, e.g.
+  // "Sherrod Brown (D)". Pick the candidate with active prices, preferring the
+  // one whose question contains "Democrat" or whose title ends in "(D)".
+  const dCandidates = (event.markets || []).filter((m) => {
+    const g = (m.groupItemTitle || "").toLowerCase();
+    return g.endsWith("(d)") || /\bdemocrat/i.test(g);
+  });
+  if (dCandidates.length === 0) return null;
+  // Pick the one with the highest YES price (most likely the Democratic nominee).
+  const withPrice = dCandidates.filter((m) => m.outcomePrices && m.outcomePrices !== "null");
+  if (withPrice.length === 0) return dCandidates[0];
+  return withPrice.sort((a, b) => {
+    const pa = parseFloat(JSON.parse(a.outcomePrices!)[0]);
+    const pb = parseFloat(JSON.parse(b.outcomePrices!)[0]);
+    return pb - pa;
+  })[0];
 }
 
 interface ProviderRef {
@@ -165,13 +181,23 @@ interface KalshiMarket {
 }
 
 async function kalshiBySeries(seriesTicker: string): Promise<KalshiMarket[]> {
-  try {
-    const url = `https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=${seriesTicker}&status=open&limit=100`;
-    const data = await fetchJson(url);
-    return data.markets || [];
-  } catch (e) {
-    return [];
+  // Kalshi returns 429 quickly under sustained load. Built-in tiny delay +
+  // one retry with backoff.
+  const delays = [0, 1000, 4000];
+  let lastErr: Error | null = null;
+  for (const d of delays) {
+    if (d > 0) await new Promise((r) => setTimeout(r, d));
+    try {
+      const url = `https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=${seriesTicker}&status=open&limit=100`;
+      const data = await fetchJson(url);
+      return data.markets || [];
+    } catch (e) {
+      lastErr = e as Error;
+      if (!String(lastErr.message).includes("429")) break;
+    }
   }
+  if (lastErr) console.error(`  kalshi ${seriesTicker}: ${lastErr.message}`);
+  return [];
 }
 
 function kalshiPickDem(markets: KalshiMarket[]): KalshiMarket | null {
@@ -184,10 +210,9 @@ function kalshiPickDem(markets: KalshiMarket[]): KalshiMarket | null {
   });
   if (matches.length === 0) {
     // Fall back to ticker-suffix matching: party-control markets sometimes use
-    // candidate sub-titles (e.g. "Roy Cooper") but the ticker still ends in -D.
-    const dByTicker = markets.filter(
-      (m) => /-26-D$/.test(m.ticker) || /-26[A-Z]*-D$/.test(m.ticker),
-    );
+    // candidate sub-titles (e.g. "Roy Cooper") but the ticker still ends in
+    // -D or -DEM.
+    const dByTicker = markets.filter((m) => /-26-(D|DEM)$/.test(m.ticker));
     if (dByTicker.length > 0) return dByTicker[0];
     return null;
   }
@@ -198,9 +223,10 @@ function kalshiPickDem(markets: KalshiMarket[]): KalshiMarket | null {
 }
 
 function kalshiPickDemTickerOnly(markets: KalshiMarket[]): KalshiMarket | null {
-  // For 2026 races, fall back to picking the ticker ending in -D for cycle 26.
+  // For 2026 races, fall back to picking the ticker suffix. Patterns seen:
+  //   -26-D, -26-DEM  (party suffix on a -26 event)
   return markets.find(
-    (m) => /-26-D$/.test(m.ticker) || /-26[A-Z]*-D$/.test(m.ticker),
+    (m) => /-26-(D|DEM)$/.test(m.ticker),
   ) || null;
 }
 
@@ -235,9 +261,16 @@ async function findPolymarketSenate(state: string): Promise<ProviderRef | null> 
   if (!ev) return null;
   const dem = polyPickDem(ev);
   if (!dem) return null;
+  const g = (dem.groupItemTitle || "").toLowerCase();
+  const isParty = g === "democrat" || g === "democratic party" || g === "democrats";
   const hasPrice = dem.outcomePrices && dem.outcomePrices !== "null";
-  return polyRef(ev, dem, hasPrice ? "high" : "medium",
-    hasPrice ? "Democrat sub-market with active prices" : "Democrat sub-market exists but no active prices");
+  let conf: "high" | "medium" | "low" = "low";
+  let note = "";
+  if (isParty && hasPrice) { conf = "high"; note = "party-level Democrat sub-market with active prices"; }
+  else if (isParty) { conf = "medium"; note = "party-level Democrat sub-market but no active prices yet"; }
+  else if (hasPrice) { conf = "medium"; note = `no party sub-market; using candidate "${dem.groupItemTitle}" (highest-price D)`; }
+  else { conf = "low"; note = `only candidate sub-market "${dem.groupItemTitle}" matched, and no prices`; }
+  return polyRef(ev, dem, conf, note);
 }
 
 async function findPolymarketHouse(state: string, district: number): Promise<ProviderRef | null> {
@@ -255,9 +288,16 @@ async function findPolymarketHouse(state: string, district: number): Promise<Pro
     if (!ev) continue;
     const dem = polyPickDem(ev);
     if (!dem) continue;
+    const g = (dem.groupItemTitle || "").toLowerCase();
+    const isParty = g === "democrat" || g === "democratic party" || g === "democrats";
     const hasPrice = dem.outcomePrices && dem.outcomePrices !== "null";
-    return polyRef(ev, dem, hasPrice ? "high" : "medium",
-      `slug=${slug}` + (hasPrice ? " (active prices)" : " (no prices yet)"));
+    let conf: "high" | "medium" | "low" = "low";
+    let note = "";
+    if (isParty && hasPrice) { conf = "high"; note = `slug=${slug}, party-level Democrat market with prices`; }
+    else if (isParty) { conf = "medium"; note = `slug=${slug}, party-level Democrat market, no prices yet`; }
+    else if (hasPrice) { conf = "medium"; note = `slug=${slug}, no party sub-market; using candidate "${dem.groupItemTitle}"`; }
+    else { conf = "low"; note = `slug=${slug}, candidate-level "${dem.groupItemTitle}", no prices`; }
+    return polyRef(ev, dem, conf, note);
   }
   return null;
 }
@@ -299,19 +339,33 @@ async function findKalshiHouse(state: string, district: number): Promise<Provide
   const candidates = [
     `HOUSEPARTY-${state}${dd}`,
     `HOUSEPARTY${state}${dd}`,
+    `HOUSEPARTY-${state}${district}`,
     `HOUSE${state}${dd}`,
-    `HOUSE${state}${district}`,    // e.g. HOUSECA9 vs HOUSECA09
+    `HOUSE${state}${district}`,
     `KXHOUSE${state}${dd}`,
+    `KXHOUSE${state}${district}`,
+    `HOUSE${state}${district}S`,    // special elections e.g. HOUSEAZ7S, HOUSETN7S
   ];
   for (const series of candidates) {
     const markets = await kalshiBySeries(series);
     const dem = kalshiPickDem(markets);
     if (dem) {
-      const conf: "high" | "medium" = series.includes("PARTY") ? "high" : "medium";
-      const note = series.includes("PARTY")
-        ? `party-level series ${series}`
-        : `candidate-level series ${series}; Democrat market matched by sub-title`;
-      return kalshiRef(dem, series, conf, note);
+      const sub = (dem.yes_sub_title || "").toLowerCase();
+      const isParty = sub.includes("party") || series.includes("PARTY");
+      return kalshiRef(
+        dem, series,
+        isParty ? "high" : "medium",
+        isParty
+          ? `party-level market in series ${series}`
+          : `candidate-level market in series ${series} (yes_sub_title="${dem.yes_sub_title}")`,
+      );
+    }
+    const dByTic = kalshiPickDemTickerOnly(markets);
+    if (dByTic) {
+      return kalshiRef(
+        dByTic, series, "medium",
+        `candidate-level market in series ${series}, picked by ticker -D suffix (sub-title was "${dByTic.yes_sub_title}")`,
+      );
     }
   }
   return null;
@@ -393,8 +447,8 @@ async function main() {
       `  [${i}/${races.length}] ${key} poly=${poly ? poly.confidence : "MISS"} ` +
       `kalshi=${kalshi ? kalshi.confidence : "MISS"}`,
     );
-    // Be polite — both APIs are public but we don't want to spam them.
-    await new Promise((r) => setTimeout(r, 150));
+    // Be polite — Kalshi rate-limits aggressively.
+    await new Promise((r) => setTimeout(r, 400));
   }
 
   fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2));
