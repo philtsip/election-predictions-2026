@@ -4,6 +4,10 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
+    {
+      "source": "/api/kalshi/:path*",
+      "destination": "https://api.elections.kalshi.com/trade-api/v2/:path*"
+    },
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }

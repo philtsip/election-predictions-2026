@@ -1,7 +1,8 @@
 import type { MarketRef, OddsPoint } from "./types";
 
-// Same-origin proxy (Vercel Edge function / Vite dev proxy) — Kalshi sends no
-// CORS header, so the browser can't call it directly. See api/kalshi/[...path].ts.
+// Same-origin proxy — Kalshi sends no CORS header, so the browser can't call it
+// directly. In prod a Vercel rewrite forwards /api/kalshi/* to Kalshi
+// server-side (see vercel.json); in dev the Vite proxy does the same.
 const KALSHI_BASE = "/api/kalshi";
 
 /**
