@@ -361,17 +361,31 @@
       }
     },
     "senate-NE": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "634893",
+        "market_slug": "will-an-independent-win-the-nebraska-senate-race-in-2026",
+        "market_url": "https://polymarket.com/event/nebraska-senate-election-winner",
+        "event_slug": "nebraska-senate-election-winner",
+        "confidence": "high",
+        "note": "Independent Dan Osborn is the competitive anti-Ricketts challenger (no real Democrat is running); tracked here as the de-facto opposition. Verified live YES mid=0.365.",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "47975366268282823322598946778919483335780002591367838795894307024076579116518",
+          "market_id": "634893"
+        }
+      },
       "kalshi": {
         "provider": "kalshi",
         "series_ticker": "SENATENE",
         "event_ticker": "SENATENE-26",
-        "ticker": "SENATENE-26-D",
+        "ticker": "SENATENE-26-DOSB",
         "market_url": "https://kalshi.com/markets/senatene/senatene-26",
         "confidence": "high",
-        "note": "Party-level Democratic market (Cindy Burbank). Verified live Dem YES bid~0.002. NOTE: the competitive anti-Ricketts challenger is independent Dan Osborn (SENATENE-26-DOSB, ~0.36), NOT a Democrat, so the official Dem-party YES is near zero by design.",
+        "note": "Independent Dan Osborn market (yes_sub_title 'Dan Osborn'); the competitive anti-Ricketts challenger, tracked as the de-facto opposition. Verified live YES bid=0.35 ask=0.37.",
         "dem_outcome": {
           "type": "market_yes",
-          "ticker": "SENATENE-26-D"
+          "ticker": "SENATENE-26-DOSB"
         }
       }
     }

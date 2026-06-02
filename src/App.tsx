@@ -143,23 +143,7 @@ function Footer() {
     <footer className="max-w-6xl mx-auto px-4 sm:px-6 mt-24 text-xs text-muted-foreground">
       <div className="border-t border-border/40 pt-6 flex flex-wrap gap-x-6 gap-y-2">
         <span>Probabilities = market prices.</span>
-        <span>Ratings: Cook Political Report.</span>
-        <a
-          href="https://gamma-api.polymarket.com"
-          className="hover:text-foreground"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Polymarket ↗
-        </a>
-        <a
-          href="https://kalshi.com"
-          className="hover:text-foreground"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Kalshi ↗
-        </a>
+        <span>Ratings: Cook Political Report</span>
       </div>
     </footer>
   );

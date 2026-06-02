@@ -1,5 +1,14 @@
 [
   {
+    "chamber": "senate",
+    "state": "NE",
+    "district": null,
+    "candidates": [
+      { "first_name": "Dan", "last_name": "Osborn", "party": "I", "is_incumbent": false, "bio": "Independent candidate and former industrial mechanic / union leader; the competitive anti-Ricketts challenger running with no Democrat in the race. Tracked here as the de-facto opposition to the Republican. Narrowly lost a 2024 Senate bid as an independent." },
+      { "first_name": "Pete", "last_name": "Ricketts", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Senator from Nebraska, appointed in 2023 and elected in 2024 to fill the remainder of the term; former two-term Governor of Nebraska and member of the Ricketts family that owns the Chicago Cubs." }
+    ]
+  },
+  {
     "chamber": "house",
     "state": "AK",
     "district": 0,

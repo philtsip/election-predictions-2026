@@ -45,7 +45,7 @@ export function ProbBar({ poly, kalshi, className }: Props) {
       {kalshi != null && (
         <Marker
           pct={kalshi}
-          color="hsl(280 90% 65%)"
+          color="hsl(150 65% 47%)"
           label="K"
           shape="square"
         />
