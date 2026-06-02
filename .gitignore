@@ -149,3 +149,6 @@ scripts/outputs/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# transient working files from analyze scripts
+*.partial
