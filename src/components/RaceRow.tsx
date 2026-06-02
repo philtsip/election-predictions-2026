@@ -2,7 +2,7 @@ import type { MarketRef, Race } from "@/lib/types";
 import { raceKey, raceLabel } from "@/lib/types";
 import { useOdds } from "@/lib/useOdds";
 import { ProbBar } from "./ProbBar";
-import { CandidateDialog } from "./CandidateDialog";
+import { CandidateSheet } from "./CandidateSheet";
 import { cn } from "@/lib/cn";
 
 interface Props {
@@ -44,7 +44,7 @@ export function RaceRow({ race, poly, kalshi }: Props) {
             i
           </span>
         )}
-        <CandidateDialog race={race} />
+        <CandidateSheet race={race} />
       </div>
 
       <div className="min-w-0">
@@ -67,7 +67,7 @@ export function RaceRow({ race, poly, kalshi }: Props) {
           value={kalshiOdds.data?.dem_prob}
           loading={kalshiOdds.isLoading}
           color="text-foreground"
-          markerColor="bg-[hsl(280_90%_65%)]"
+          markerColor="bg-[hsl(150_65%_47%)]"
         />
       </div>
     </div>

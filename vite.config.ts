@@ -11,12 +11,24 @@ export default defineConfig({
     },
   },
   server: {
-    // Mirror the prod Vercel Edge proxy so Kalshi works in `vite dev` too.
+    // Dev-only proxies. Kalshi also needs a proxy in prod (no CORS header) —
+    // see api/kalshi/[...path].ts. Polymarket is fetched directly in prod; these
+    // proxies just keep `vite dev` working behind TLS-intercepting networks.
     proxy: {
       "/api/kalshi": {
         target: "https://api.elections.kalshi.com/trade-api/v2",
         changeOrigin: true,
         rewrite: (p) => p.replace(/^\/api\/kalshi/, ""),
+      },
+      "/pm-clob": {
+        target: "https://clob.polymarket.com",
+        changeOrigin: true,
+        rewrite: (p) => p.replace(/^\/pm-clob/, ""),
+      },
+      "/pm-gamma": {
+        target: "https://gamma-api.polymarket.com",
+        changeOrigin: true,
+        rewrite: (p) => p.replace(/^\/pm-gamma/, ""),
       },
     },
   },

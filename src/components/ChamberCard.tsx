@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import type { Chamber, ChamberControlMarkets } from "@/lib/types";
 import { useOdds } from "@/lib/useOdds";
 import { cn } from "@/lib/cn";
@@ -30,7 +31,7 @@ export function ChamberCard({ chamber, markets }: Props) {
         className="absolute inset-x-0 top-0 h-px"
         style={{
           background:
-            "linear-gradient(to right, transparent, hsl(215 90% 60%), hsl(280 90% 65%), transparent)",
+            "linear-gradient(to right, transparent, hsl(215 90% 60%), hsl(150 65% 47%), transparent)",
         }}
       />
       <div className="relative p-5 sm:p-7">
@@ -52,7 +53,7 @@ export function ChamberCard({ chamber, markets }: Props) {
           />
           <Reading
             label="Kalshi"
-            markerColor="bg-[hsl(280_90%_65%)]"
+            markerColor="bg-[hsl(150_65%_47%)]"
             value={kalshi}
             loading={kalshiOdds.isLoading}
             url={markets?.kalshi?.market_url}
@@ -77,11 +78,23 @@ function Reading({
   url?: string;
 }) {
   const display = value == null ? "—" : `${Math.round(value * 100)}`;
-  const content = (
+  return (
     <div className="group">
       <div className="flex items-center gap-1.5 text-[11px] uppercase tracking-widest text-muted-foreground">
         <span className={cn("h-1.5 w-1.5 rounded-full", markerColor, loading && "animate-pulse")} />
-        {label}
+        {url ? (
+          <a
+            href={url}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-0.5 hover:text-foreground transition-colors"
+          >
+            {label}
+            <ArrowUpRight className="h-3 w-3" />
+          </a>
+        ) : (
+          label
+        )}
       </div>
       <div className="mt-1 flex items-baseline gap-0.5">
         <span className="font-serif text-5xl sm:text-6xl leading-none tabular tracking-tight">
@@ -91,17 +104,6 @@ function Reading({
           <span className="text-2xl sm:text-3xl text-muted-foreground font-serif">%</span>
         )}
       </div>
-      {url && (
-        <a
-          href={url}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-1 inline-block text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors"
-        >
-          view market ↗
-        </a>
-      )}
     </div>
   );
-  return content;
 }

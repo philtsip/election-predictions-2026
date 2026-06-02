@@ -1,4 +1,393 @@
 {
   "chamber_control": {},
-  "races": {}
+  "races": {
+    "house-AK-00": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "1279605",
+        "market_slug": "ak-al-will-a-democrat-win",
+        "market_url": "https://polymarket.com/event/ak-al-house-election-winner",
+        "event_slug": "ak-al-house-election-winner",
+        "confidence": "high",
+        "note": "AK at-large; party-level 'Will the Democratic Party win the AK-AL House seat?' market, verified live Dem YES mid=0.20",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "106387119478622283441026286722849456868957395499329392203969838246317853715637",
+          "market_id": "1279605"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEAKAL",
+        "event_ticker": "HOUSEAKAL-26",
+        "ticker": "HOUSEAKAL-26-D",
+        "market_url": "https://kalshi.com/markets/houseakal/houseakal-26",
+        "confidence": "high",
+        "note": "AK at-large; party-level Democratic market, verified live Dem YES bid=0.14 ask=0.20",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEAKAL-26-D"
+        }
+      }
+    },
+    "house-IN-01": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEIN1",
+        "event_ticker": "HOUSEIN1-26",
+        "ticker": "HOUSEIN1-26-D",
+        "market_url": "https://kalshi.com/markets/housein1/housein1-26",
+        "confidence": "high",
+        "note": "Party-level Dem market (title 'Will a Democrat win the House race for IN-1?'); yes_sub_title shows Dem incumbent Frank Mrvan. Verified live Dem YES last=0.83",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEIN1-26-D"
+        }
+      }
+    },
+    "house-NC-01": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENC1",
+        "event_ticker": "HOUSENC1-26",
+        "ticker": "HOUSENC1-26-D",
+        "market_url": "https://kalshi.com/markets/housenc1/housenc1-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; yes_sub_title shows Dem incumbent Don Davis. Verified live Dem YES last=0.57",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENC1-26-D"
+        }
+      }
+    },
+    "house-NC-11": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "KXHOUSENC11",
+        "event_ticker": "KXHOUSENC11-26",
+        "ticker": "KXHOUSENC11-26-DEM",
+        "market_url": "https://kalshi.com/markets/kxhousenc11/kxhousenc11-26",
+        "confidence": "high",
+        "note": "Party-level Dem market (title 'Will Democratic win the House race for NC-11?'); Jamie Ager is the Dem candidate. Verified live Dem YES last=0.76",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "KXHOUSENC11-26-DEM"
+        }
+      }
+    },
+    "house-NE-02": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENE2",
+        "event_ticker": "HOUSENE2-26",
+        "ticker": "HOUSENE2-26-D",
+        "market_url": "https://kalshi.com/markets/housene2/housene2-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Denise Powell is the Dem candidate. Verified live Dem YES last=0.78",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENE2-26-D"
+        }
+      }
+    },
+    "house-OH-01": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEOH1",
+        "event_ticker": "HOUSEOH1-26",
+        "ticker": "HOUSEOH1-26-D",
+        "market_url": "https://kalshi.com/markets/houseoh1/houseoh1-26",
+        "confidence": "high",
+        "note": "Party-level Dem market (title 'Will a Democrat win the House race for OH-1?'); Dem incumbent Greg Landsman. Verified live Dem YES last=0.79",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEOH1-26-D"
+        }
+      }
+    },
+    "house-OH-09": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEOH9",
+        "event_ticker": "HOUSEOH9-26",
+        "ticker": "HOUSEOH9-26-D",
+        "market_url": "https://kalshi.com/markets/houseoh9/houseoh9-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Dem incumbent Marcy Kaptur. Verified live Dem YES last=0.52",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEOH9-26-D"
+        }
+      }
+    },
+    "house-OH-13": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEOH13",
+        "event_ticker": "HOUSEOH13-26",
+        "ticker": "HOUSEOH13-26-D",
+        "market_url": "https://kalshi.com/markets/houseoh13/houseoh13-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Dem incumbent Emilia Sykes. Verified live Dem YES last=0.86",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEOH13-26-D"
+        }
+      }
+    },
+    "house-OR-05": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEOR5",
+        "event_ticker": "HOUSEOR5-26",
+        "ticker": "HOUSEOR5-26-D",
+        "market_url": "https://kalshi.com/markets/houseor5/houseor5-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Dem incumbent Janelle Bynum. Verified live Dem YES last=0.89",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEOR5-26-D"
+        }
+      }
+    },
+    "house-PA-01": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEPA1",
+        "event_ticker": "HOUSEPA1-26",
+        "ticker": "HOUSEPA1-26-D",
+        "market_url": "https://kalshi.com/markets/housepa1/housepa1-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Bob Harvie is the Dem challenger. Verified live Dem YES last=0.48",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEPA1-26-D"
+        }
+      }
+    },
+    "house-PA-07": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEPA7",
+        "event_ticker": "HOUSEPA7-26",
+        "ticker": "HOUSEPA7-26-D",
+        "market_url": "https://kalshi.com/markets/housepa7/housepa7-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Bob Brooks is the Dem candidate. Verified live Dem YES last=0.74",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEPA7-26-D"
+        }
+      }
+    },
+    "house-PA-08": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEPA8",
+        "event_ticker": "HOUSEPA8-26",
+        "ticker": "HOUSEPA8-26-D",
+        "market_url": "https://kalshi.com/markets/housepa8/housepa8-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Paige Cognetti is the Dem candidate. Verified live Dem YES last=0.61",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEPA8-26-D"
+        }
+      }
+    },
+    "house-PA-10": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEPA10",
+        "event_ticker": "HOUSEPA10-26",
+        "ticker": "HOUSEPA10-26-D",
+        "market_url": "https://kalshi.com/markets/housepa10/housepa10-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Janelle Stelson is the Dem challenger to Scott Perry. Verified live Dem YES last=0.73",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEPA10-26-D"
+        }
+      }
+    },
+    "house-TX-15": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSETX15",
+        "event_ticker": "HOUSETX15-26",
+        "ticker": "HOUSETX15-26-D",
+        "market_url": "https://kalshi.com/markets/housetx15/housetx15-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Bobby Pulido is the Dem candidate. Verified live Dem YES last=0.47",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSETX15-26-D"
+        }
+      }
+    },
+    "house-TX-28": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSETX28",
+        "event_ticker": "HOUSETX28-26",
+        "ticker": "HOUSETX28-26-D",
+        "market_url": "https://kalshi.com/markets/housetx28/housetx28-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Dem incumbent Henry Cuellar. Verified live Dem YES last=0.72",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSETX28-26-D"
+        }
+      }
+    },
+    "house-TX-34": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSETX34",
+        "event_ticker": "HOUSETX34-26",
+        "ticker": "HOUSETX34-26-D",
+        "market_url": "https://kalshi.com/markets/housetx34/housetx34-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; Dem incumbent Vicente Gonzalez. Verified live Dem YES last=0.69",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSETX34-26-D"
+        }
+      }
+    },
+    "house-TX-35": {
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "KXHOUSETX35",
+        "event_ticker": "KXHOUSETX35-26",
+        "ticker": "KXHOUSETX35-26-D",
+        "market_url": "https://kalshi.com/markets/kxhousetx35/kxhousetx35-26",
+        "confidence": "high",
+        "note": "Corrected ticker: raw used -DEM (dead); correct party-level Dem ticker is KXHOUSETX35-26-D, Johnny C. Garcia is the Dem candidate. Verified live Dem YES bid=0.41 ask=0.44",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "KXHOUSETX35-26-D"
+        }
+      }
+    },
+    "senate-AK": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "634976",
+        "market_url": "https://polymarket.com/event/alaska-senate-election-winner",
+        "event_slug": "alaska-senate-election-winner",
+        "confidence": "high",
+        "note": "No party sub-market; using Mary Peltola, confirmed Democratic nominee challenging Sullivan. Verified live YES mid=0.59",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "72139607190315861034411702195742538105117960260100800877125381826122747504258",
+          "market_id": "634976"
+        }
+      }
+    },
+    "senate-NC": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "630883",
+        "market_slug": "will-the-democrats-win-the-north-carolina-senate-race-in-2026",
+        "market_url": "https://polymarket.com/event/north-carolina-senate-election-winner",
+        "event_slug": "north-carolina-senate-election-winner",
+        "confidence": "high",
+        "note": "Roy Cooper confirmed Democratic nominee (won primary 92%) vs Whatley. Verified live YES mid=0.85",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "107151098936186723859677628536733880558851060002514795735761427447010628440047",
+          "market_id": "630883"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATENC",
+        "event_ticker": "SENATENC-26",
+        "ticker": "SENATENC-26-D",
+        "market_url": "https://kalshi.com/markets/senatenc/senatenc-26",
+        "confidence": "high",
+        "note": "Corrected: raw pointed to SENATENC-28 (2028 race). Correct 2026 ticker SENATENC-26-D, Dem party / Roy Cooper. Verified live Dem YES bid=0.85 ask=0.86",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATENC-26-D"
+        }
+      }
+    },
+    "senate-OH": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "631057",
+        "market_slug": "will-the-democrats-win-the-ohio-senate-race-in-2026",
+        "market_url": "https://polymarket.com/event/ohio-senate-election-winner",
+        "event_slug": "ohio-senate-election-winner",
+        "confidence": "high",
+        "note": "Sherrod Brown confirmed Democratic nominee in OH Senate special vs Husted. Verified live YES mid=0.525",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "83018072688154066292491996133599479395547801317505487833443670253228061205312",
+          "market_id": "631057"
+        }
+      },
+      "kalshi": null
+    },
+    "senate-TX": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "630963",
+        "market_slug": "will-the-democrats-win-the-texas-senate-race-in-2026",
+        "market_url": "https://polymarket.com/event/texas-senate-election-winner",
+        "event_slug": "texas-senate-election-winner",
+        "confidence": "high",
+        "note": "James Talarico confirmed Democratic nominee (won primary 2026-03-03). Verified live YES mid=0.395",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "15290572385458522370285732869432740297199321382471116558439914335588167718663",
+          "market_id": "630963"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATETX",
+        "event_ticker": "SENATETX-26",
+        "ticker": "SENATETX-26-D",
+        "market_url": "https://kalshi.com/markets/senatetx/senatetx-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; James Talarico confirmed Democratic nominee. Verified live Dem YES bid=0.40 ask=0.41",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATETX-26-D"
+        }
+      }
+    },
+    "senate-NE": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "634893",
+        "market_slug": "will-an-independent-win-the-nebraska-senate-race-in-2026",
+        "market_url": "https://polymarket.com/event/nebraska-senate-election-winner",
+        "event_slug": "nebraska-senate-election-winner",
+        "confidence": "high",
+        "note": "Independent Dan Osborn is the competitive anti-Ricketts challenger (no real Democrat is running); tracked here as the de-facto opposition. Verified live YES mid=0.365.",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "47975366268282823322598946778919483335780002591367838795894307024076579116518",
+          "market_id": "634893"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATENE",
+        "event_ticker": "SENATENE-26",
+        "ticker": "SENATENE-26-DOSB",
+        "market_url": "https://kalshi.com/markets/senatene/senatene-26",
+        "confidence": "high",
+        "note": "Independent Dan Osborn market (yes_sub_title 'Dan Osborn'); the competitive anti-Ricketts challenger, tracked as the de-facto opposition. Verified live YES bid=0.35 ask=0.37.",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATENE-26-DOSB"
+        }
+      }
+    }
+  }
 }

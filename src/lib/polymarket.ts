@@ -1,7 +1,11 @@
 import type { MarketRef, OddsPoint } from "./types";
 
-const GAMMA_BASE = "https://gamma-api.polymarket.com";
-const CLOB_BASE = "https://clob.polymarket.com";
+// Production fetches Polymarket directly from the browser (its APIs send
+// `access-control-allow-origin: *`). In dev we route through the Vite proxy so
+// local/sandboxed environments with TLS-intercepting proxies still work.
+const DEV = import.meta.env.DEV;
+const GAMMA_BASE = DEV ? "/pm-gamma" : "https://gamma-api.polymarket.com";
+const CLOB_BASE = DEV ? "/pm-clob" : "https://clob.polymarket.com";
 
 /**
  * Fetch the current "Democrats win" probability from a Polymarket market.
