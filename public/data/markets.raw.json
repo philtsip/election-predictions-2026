@@ -1,0 +1,2246 @@
+{
+  "chamber_control": {
+    "senate": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
+        "event_slug": "which-party-will-win-the-senate-in-2026",
+        "market_slug": "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections",
+        "market_id": "562793",
+        "condition_id": "0x307a1ed89d60b61002dd5bbf00e1408c5ed2ab3fcdb056191ca7ef9bc34d38f3",
+        "clob_token_yes": "113287701564209339913693347405685749986285999146352375265161592243948562084773",
+        "confidence": "high",
+        "note": "Canonical Polymarket senate-control event",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "113287701564209339913693347405685749986285999146352375265161592243948562084773",
+          "market_slug": "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections",
+          "market_id": "562793"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "CONTROLS",
+        "event_ticker": "CONTROLS-2026",
+        "ticker": "CONTROLS-2026-D",
+        "market_url": "https://kalshi.com/markets/controls/controls-2026",
+        "confidence": "high",
+        "note": "Canonical Kalshi senate-control market (CONTROLS-2026-D)",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "CONTROLS-2026-D"
+        }
+      }
+    },
+    "house": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
+        "event_slug": "which-party-will-win-the-house-in-2026",
+        "market_slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+        "market_id": "562802",
+        "condition_id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
+        "clob_token_yes": "83247781037352156539108067944461291821683755894607244160607042790356561625563",
+        "confidence": "high",
+        "note": "Canonical Polymarket house-control event",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "83247781037352156539108067944461291821683755894607244160607042790356561625563",
+          "market_slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+          "market_id": "562802"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "CONTROLH",
+        "event_ticker": "CONTROLH-2026",
+        "ticker": "CONTROLH-2026-D",
+        "market_url": "https://kalshi.com/markets/controlh/controlh-2026",
+        "confidence": "high",
+        "note": "Canonical Kalshi house-control market (CONTROLH-2026-D)",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "CONTROLH-2026-D"
+        }
+      }
+    }
+  },
+  "races": {
+    "house-AK-00": {
+      "polymarket": null,
+      "kalshi": null
+    },
+    "house-AZ-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/az-01-house-election-winner",
+        "event_slug": "az-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-az-01-house-seat",
+        "market_id": "942084",
+        "condition_id": "0x0eda21c8b5651dba9fd69aad361e9d01481965e94241ac438486a16dab181344",
+        "clob_token_yes": "67501795419284092111663134279812910460154992630407078593989658098590262577673",
+        "confidence": "high",
+        "note": "slug=az-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "67501795419284092111663134279812910460154992630407078593989658098590262577673",
+          "market_slug": "will-the-democratic-party-win-the-az-01-house-seat",
+          "market_id": "942084"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEAZ1",
+        "event_ticker": "HOUSEAZ1-26",
+        "ticker": "HOUSEAZ1-26-D",
+        "market_url": "https://kalshi.com/markets/houseaz1/houseaz1-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEAZ1",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEAZ1-26-D"
+        }
+      }
+    },
+    "house-AZ-02": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/az-02-house-election-winner",
+        "event_slug": "az-02-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-az-02-house-seat",
+        "market_id": "942117",
+        "condition_id": "0x86b398869c0bbdd80f5636abf20ebd6a3f86cf2656a41f186de652a5826115b3",
+        "clob_token_yes": "3443730243629009067137575970938200548553205123774326260772894121725693586787",
+        "confidence": "high",
+        "note": "slug=az-02-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "3443730243629009067137575970938200548553205123774326260772894121725693586787",
+          "market_slug": "will-the-democratic-party-win-the-az-02-house-seat",
+          "market_id": "942117"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEAZ2",
+        "event_ticker": "HOUSEAZ2-26",
+        "ticker": "HOUSEAZ2-26-D",
+        "market_url": "https://kalshi.com/markets/houseaz2/houseaz2-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEAZ2",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEAZ2-26-D"
+        }
+      }
+    },
+    "house-AZ-06": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/az-06-house-election-winner",
+        "event_slug": "az-06-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-az-06-house-seat",
+        "market_id": "942162",
+        "condition_id": "0x97c667cff605b7dea893e79ace9b9506d244898fc5429358ae1e218548ac360b",
+        "clob_token_yes": "92489819804290368443943803966220296254525527906989333620579684623025259387169",
+        "confidence": "high",
+        "note": "slug=az-06-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "92489819804290368443943803966220296254525527906989333620579684623025259387169",
+          "market_slug": "will-the-democratic-party-win-the-az-06-house-seat",
+          "market_id": "942162"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEAZ6",
+        "event_ticker": "HOUSEAZ6-26",
+        "ticker": "HOUSEAZ6-26-D",
+        "market_url": "https://kalshi.com/markets/houseaz6/houseaz6-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEAZ6",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEAZ6-26-D"
+        }
+      }
+    },
+    "house-CA-13": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ca-13-house-election-winner",
+        "event_slug": "ca-13-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ca-13-house-seat",
+        "market_id": "942274",
+        "condition_id": "0xd5e44002d2fe404c9bdf2404b5e3636d2898c6dcff556b7092d0b9f4df323d20",
+        "clob_token_yes": "62184131032386611428464897252491116870859707412945073702683019894928068509899",
+        "confidence": "high",
+        "note": "slug=ca-13-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "62184131032386611428464897252491116870859707412945073702683019894928068509899",
+          "market_slug": "will-the-democratic-party-win-the-ca-13-house-seat",
+          "market_id": "942274"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSECA13",
+        "event_ticker": "HOUSECA13-26",
+        "ticker": "HOUSECA13-26-D",
+        "market_url": "https://kalshi.com/markets/houseca13/houseca13-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSECA13",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSECA13-26-D"
+        }
+      }
+    },
+    "house-CA-21": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ca-21-house-election-winner",
+        "event_slug": "ca-21-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ca-21-house-seat",
+        "market_id": "1281077",
+        "condition_id": "0x44f7e3582eba72648fb5e03cb1dacc0ace21da93285999c7e14642cf91e279bf",
+        "clob_token_yes": "9839394132167490569494811921928425917610245224143989073663541732846436833998",
+        "confidence": "high",
+        "note": "slug=ca-21-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "9839394132167490569494811921928425917610245224143989073663541732846436833998",
+          "market_slug": "will-the-democratic-party-win-the-ca-21-house-seat",
+          "market_id": "1281077"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSECA21",
+        "event_ticker": "HOUSECA21-26",
+        "ticker": "HOUSECA21-26-D",
+        "market_url": "https://kalshi.com/markets/houseca21/houseca21-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSECA21",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSECA21-26-D"
+        }
+      }
+    },
+    "house-CA-22": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/which-party-will-win-the-house-race-for-the-ca-22-seat",
+        "event_slug": "which-party-will-win-the-house-race-for-the-ca-22-seat",
+        "market_slug": "will-the-democratic-party-win-the-ca-22-house-seat",
+        "market_id": "703686",
+        "condition_id": "0x3fb5cd695a1a69d9bdcdc56473fe939b1f5f746fd93d95678c2aacfd02ecc8f1",
+        "clob_token_yes": "14880392203916951367210594044346675783187280368615720213876603794661640957466",
+        "confidence": "high",
+        "note": "slug=which-party-will-win-the-house-race-for-the-ca-22-seat, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "14880392203916951367210594044346675783187280368615720213876603794661640957466",
+          "market_slug": "will-the-democratic-party-win-the-ca-22-house-seat",
+          "market_id": "703686"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSECA22",
+        "event_ticker": "HOUSECA22-26",
+        "ticker": "HOUSECA22-26-D",
+        "market_url": "https://kalshi.com/markets/houseca22/houseca22-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSECA22",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSECA22-26-D"
+        }
+      }
+    },
+    "house-CA-45": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ca-45-house-election-winner",
+        "event_slug": "ca-45-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ca-45-house-seat",
+        "market_id": "1282801",
+        "condition_id": "0x5e95ab3b85ce3e98f7cc841671ddb18807c0819487134925b639402b499f360f",
+        "clob_token_yes": "46673777763694916398875529692342633408590099825859504980336071003257635967376",
+        "confidence": "high",
+        "note": "slug=ca-45-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "46673777763694916398875529692342633408590099825859504980336071003257635967376",
+          "market_slug": "will-the-democratic-party-win-the-ca-45-house-seat",
+          "market_id": "1282801"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSECA45",
+        "event_ticker": "HOUSECA45-26",
+        "ticker": "HOUSECA45-26-D",
+        "market_url": "https://kalshi.com/markets/houseca45/houseca45-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSECA45",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSECA45-26-D"
+        }
+      }
+    },
+    "house-CA-48": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ca-48-house-election-winner",
+        "event_slug": "ca-48-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ca-48-house-seat",
+        "market_id": "1282825",
+        "condition_id": "0xf8864cc923193924f175991ede770984839c7fd8e57386e6cbd9aa32eb62f6d6",
+        "clob_token_yes": "59802490472036913873496121286677427483662122509187681183126522612013504797043",
+        "confidence": "high",
+        "note": "slug=ca-48-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "59802490472036913873496121286677427483662122509187681183126522612013504797043",
+          "market_slug": "will-the-democratic-party-win-the-ca-48-house-seat",
+          "market_id": "1282825"
+        }
+      },
+      "kalshi": null
+    },
+    "house-CO-05": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/co-05-house-election-winner",
+        "event_slug": "co-05-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-co-05-house-seat",
+        "market_id": "1282889",
+        "condition_id": "0xbc533740775ffabd04d60009b45332c2a6f8cba43813bdf7b9577c5d0196a25d",
+        "clob_token_yes": "65297644285404916901193334448264414280160658285706744124400713188840107279310",
+        "confidence": "high",
+        "note": "slug=co-05-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "65297644285404916901193334448264414280160658285706744124400713188840107279310",
+          "market_slug": "will-the-democratic-party-win-the-co-05-house-seat",
+          "market_id": "1282889"
+        }
+      },
+      "kalshi": null
+    },
+    "house-CO-08": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/co-08-house-election-winner",
+        "event_slug": "co-08-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-co-08-house-seat",
+        "market_id": "942325",
+        "condition_id": "0xe52419acfb3e5da37bc53c6341cb23857b429c3b60d61f3136f0c9244d888d8d",
+        "clob_token_yes": "111540362553565728751187438925859908575427409891112173540802616759607897153785",
+        "confidence": "high",
+        "note": "slug=co-08-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "111540362553565728751187438925859908575427409891112173540802616759607897153785",
+          "market_slug": "will-the-democratic-party-win-the-co-08-house-seat",
+          "market_id": "942325"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSECO8",
+        "event_ticker": "HOUSECO8-26",
+        "ticker": "HOUSECO8-26-D",
+        "market_url": "https://kalshi.com/markets/houseco8/houseco8-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSECO8",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSECO8-26-D"
+        }
+      }
+    },
+    "house-FL-07": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/fl-07-house-election-winner",
+        "event_slug": "fl-07-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-fl-07-house-seat",
+        "market_id": "1283001",
+        "condition_id": "0xc55de48b150591d3047f4f097ee8c3196d8f5c5099559d8c34d35dc36694bbb9",
+        "clob_token_yes": "48595994389294380413605252588038399089739882614541392889205137632817333951567",
+        "confidence": "high",
+        "note": "slug=fl-07-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "48595994389294380413605252588038399089739882614541392889205137632817333951567",
+          "market_slug": "will-the-democratic-party-win-the-fl-07-house-seat",
+          "market_id": "1283001"
+        }
+      },
+      "kalshi": null
+    },
+    "house-FL-09": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/fl-09-house-election-winner",
+        "event_slug": "fl-09-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-fl-09-house-seat",
+        "market_id": "1283017",
+        "condition_id": "0xd0f009dd6d9c8b46db418c5b44af2566cdb7de8274685ca4f8dea3231b75900f",
+        "clob_token_yes": "79995747672792115054716674475173589172446551682399210610955904338812431765392",
+        "confidence": "high",
+        "note": "slug=fl-09-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "79995747672792115054716674475173589172446551682399210610955904338812431765392",
+          "market_slug": "will-the-democratic-party-win-the-fl-09-house-seat",
+          "market_id": "1283017"
+        }
+      },
+      "kalshi": null
+    },
+    "house-FL-13": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/fl-13-house-election-winner",
+        "event_slug": "fl-13-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-fl-13-house-seat",
+        "market_id": "942401",
+        "condition_id": "0x89e54c86f437d7696d9789c5ff901dd5f3b35a5594f5aadf27af50bc6d2ca50e",
+        "clob_token_yes": "10797071126504743123515085716419360987107478266428470507477377131012323100968",
+        "confidence": "high",
+        "note": "slug=fl-13-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "10797071126504743123515085716419360987107478266428470507477377131012323100968",
+          "market_slug": "will-the-democratic-party-win-the-fl-13-house-seat",
+          "market_id": "942401"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEFL13",
+        "event_ticker": "HOUSEFL13-26",
+        "ticker": "HOUSEFL13-26-D",
+        "market_url": "https://kalshi.com/markets/housefl13/housefl13-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEFL13",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEFL13-26-D"
+        }
+      }
+    },
+    "house-FL-14": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/fl-14-house-election-winner",
+        "event_slug": "fl-14-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-fl-14-house-seat",
+        "market_id": "1283049",
+        "condition_id": "0xd339058f6879b22b649e9119e50f981baa0bfad6bd168e0e69e79667d43e8927",
+        "clob_token_yes": "103955273170660493803867772687205814182075928740785481928980630118995698158278",
+        "confidence": "high",
+        "note": "slug=fl-14-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "103955273170660493803867772687205814182075928740785481928980630118995698158278",
+          "market_slug": "will-the-democratic-party-win-the-fl-14-house-seat",
+          "market_id": "1283049"
+        }
+      },
+      "kalshi": null
+    },
+    "house-FL-22": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/fl-22-house-election-winner",
+        "event_slug": "fl-22-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-fl-22-house-seat",
+        "market_id": "1283113",
+        "condition_id": "0xe0c5c12f7d502ea64c77657b887d601c8d23b2006a5e7dc0d0f856782c187452",
+        "clob_token_yes": "9888897571794010752121877049436014412394792546592129944638664529404498838517",
+        "confidence": "high",
+        "note": "slug=fl-22-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "9888897571794010752121877049436014412394792546592129944638664529404498838517",
+          "market_slug": "will-the-democratic-party-win-the-fl-22-house-seat",
+          "market_id": "1283113"
+        }
+      },
+      "kalshi": null
+    },
+    "house-FL-25": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/fl-25-house-election-winner",
+        "event_slug": "fl-25-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-fl-25-house-seat",
+        "market_id": "1283129",
+        "condition_id": "0x9da6028526359f1b342620308e871f8479844fb06d7c699dc478a165e39c594d",
+        "clob_token_yes": "84319454573662085210770106575059573110977726805918419997163222348941856635019",
+        "confidence": "high",
+        "note": "slug=fl-25-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "84319454573662085210770106575059573110977726805918419997163222348941856635019",
+          "market_slug": "will-the-democratic-party-win-the-fl-25-house-seat",
+          "market_id": "1283129"
+        }
+      },
+      "kalshi": null
+    },
+    "house-FL-27": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/fl-27-house-election-winner",
+        "event_slug": "fl-27-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-fl-27-house-seat",
+        "market_id": "1283145",
+        "condition_id": "0x39c80b744a529e3f32bd185307b07cc722bf7dfae566c5bbc99f327fa8ae9825",
+        "clob_token_yes": "87632188064342846003481310839455761207074940794961867015436748790753999942898",
+        "confidence": "high",
+        "note": "slug=fl-27-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "87632188064342846003481310839455761207074940794961867015436748790753999942898",
+          "market_slug": "will-the-democratic-party-win-the-fl-27-house-seat",
+          "market_id": "1283145"
+        }
+      },
+      "kalshi": null
+    },
+    "house-IA-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ia-01-house-election-winner",
+        "event_slug": "ia-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ia-01-house-seat",
+        "market_id": "942433",
+        "condition_id": "0x5ad7756609da59ffb359e37a16cc0b89285f4b823623e22e2900f054a77ed8ed",
+        "clob_token_yes": "70626084342654528512319514273738308837103071303735022481383733918592331109261",
+        "confidence": "high",
+        "note": "slug=ia-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "70626084342654528512319514273738308837103071303735022481383733918592331109261",
+          "market_slug": "will-the-democratic-party-win-the-ia-01-house-seat",
+          "market_id": "942433"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEIA1",
+        "event_ticker": "HOUSEIA1-26",
+        "ticker": "HOUSEIA1-26-D",
+        "market_url": "https://kalshi.com/markets/houseia1/houseia1-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEIA1",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEIA1-26-D"
+        }
+      }
+    },
+    "house-IA-02": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ia-02-house-election-winner",
+        "event_slug": "ia-02-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ia-02-house-seat",
+        "market_id": "1283289",
+        "condition_id": "0xf4051fc690cc6d64fb5132f0d1a50b864a41820ebf2bc82192858628d4015430",
+        "clob_token_yes": "24808423328362642269928339618535398875519836942812329525201323299850907438220",
+        "confidence": "high",
+        "note": "slug=ia-02-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "24808423328362642269928339618535398875519836942812329525201323299850907438220",
+          "market_slug": "will-the-democratic-party-win-the-ia-02-house-seat",
+          "market_id": "1283289"
+        }
+      },
+      "kalshi": null
+    },
+    "house-IA-03": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ia-03-house-election-winner",
+        "event_slug": "ia-03-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ia-03-house-seat",
+        "market_id": "942445",
+        "condition_id": "0x87e411b5f2ee67fe075aa7f31214a54b5fbba9ceb114d3de78290326ef374d75",
+        "clob_token_yes": "105724155866026243386456609196248574198788679514540436663740641053049222730942",
+        "confidence": "high",
+        "note": "slug=ia-03-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "105724155866026243386456609196248574198788679514540436663740641053049222730942",
+          "market_slug": "will-the-democratic-party-win-the-ia-03-house-seat",
+          "market_id": "942445"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEIA3",
+        "event_ticker": "HOUSEIA3-26",
+        "ticker": "HOUSEIA3-26-D",
+        "market_url": "https://kalshi.com/markets/houseia3/houseia3-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEIA3",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEIA3-26-D"
+        }
+      }
+    },
+    "house-IN-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/in-01-house-election-winner",
+        "event_slug": "in-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-in-01-house-seat",
+        "market_id": "942425",
+        "condition_id": "0xab7ef0fd65f6aa5a63c92cebc19acfbb6c4f01ffcf6204f2f896b52ec62561ec",
+        "clob_token_yes": "3681107044092181679149096081582633622132617006087258915752259581199189306652",
+        "confidence": "high",
+        "note": "slug=in-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "3681107044092181679149096081582633622132617006087258915752259581199189306652",
+          "market_slug": "will-the-democratic-party-win-the-in-01-house-seat",
+          "market_id": "942425"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEIN1",
+        "event_ticker": "HOUSEIN1-26",
+        "ticker": "HOUSEIN1-26-D",
+        "market_url": "https://kalshi.com/markets/housein1/housein1-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEIN1 (yes_sub_title=\"Frank Mrvan\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEIN1-26-D"
+        }
+      }
+    },
+    "house-ME-02": {
+      "polymarket": null,
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEME2",
+        "event_ticker": "HOUSEME2-26",
+        "ticker": "HOUSEME2-26-D",
+        "market_url": "https://kalshi.com/markets/houseme2/houseme2-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEME2",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEME2-26-D"
+        }
+      }
+    },
+    "house-MI-04": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/mi-04-house-election-winner",
+        "event_slug": "mi-04-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-mi-04-house-seat",
+        "market_id": "942710",
+        "condition_id": "0xdb02ac87c8cf9941ff45ed2ca572c702a56669f05b73bb5e4f183180113ed77a",
+        "clob_token_yes": "88776488175071791462909511406316753979194373422367163888126718728750245407110",
+        "confidence": "high",
+        "note": "slug=mi-04-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "88776488175071791462909511406316753979194373422367163888126718728750245407110",
+          "market_slug": "will-the-democratic-party-win-the-mi-04-house-seat",
+          "market_id": "942710"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEMI4",
+        "event_ticker": "HOUSEMI4-26",
+        "ticker": "HOUSEMI4-26-D",
+        "market_url": "https://kalshi.com/markets/housemi4/housemi4-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEMI4",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEMI4-26-D"
+        }
+      }
+    },
+    "house-MI-07": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/mi-07-house-election-winner",
+        "event_slug": "mi-07-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-mi-07-house-seat",
+        "market_id": "942722",
+        "condition_id": "0x192ddbbaa122191c951a73b780c808ef51190cc74d6400fae21e74685c60bdae",
+        "clob_token_yes": "28428563408232158641020832230598845099279456308678642815367173717175353290703",
+        "confidence": "high",
+        "note": "slug=mi-07-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "28428563408232158641020832230598845099279456308678642815367173717175353290703",
+          "market_slug": "will-the-democratic-party-win-the-mi-07-house-seat",
+          "market_id": "942722"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEMI7",
+        "event_ticker": "HOUSEMI7-26",
+        "ticker": "HOUSEMI7-26-D",
+        "market_url": "https://kalshi.com/markets/housemi7/housemi7-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEMI7",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEMI7-26-D"
+        }
+      }
+    },
+    "house-MI-08": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/mi-08-house-election-winner",
+        "event_slug": "mi-08-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-mi-08-house-seat",
+        "market_id": "942765",
+        "condition_id": "0x8937a2de7d60389eb73469769446044c12fd670b2a8230eee4f06e1e070b9c92",
+        "clob_token_yes": "40998004024518769727715136534481229852277056748646105714813641637686167793485",
+        "confidence": "high",
+        "note": "slug=mi-08-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "40998004024518769727715136534481229852277056748646105714813641637686167793485",
+          "market_slug": "will-the-democratic-party-win-the-mi-08-house-seat",
+          "market_id": "942765"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEMI8",
+        "event_ticker": "HOUSEMI8-26",
+        "ticker": "HOUSEMI8-26-D",
+        "market_url": "https://kalshi.com/markets/housemi8/housemi8-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEMI8",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEMI8-26-D"
+        }
+      }
+    },
+    "house-MI-10": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/mi-10-house-election-winner",
+        "event_slug": "mi-10-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-mi-10-house-seat",
+        "market_id": "942776",
+        "condition_id": "0x9d54f82ccce95184f18f3a46dcbab3ce637fbb92a604a15ff74cefdf0b1eb38e",
+        "clob_token_yes": "75685534826787951976275953631896177236439299709473517876953614908104349066066",
+        "confidence": "high",
+        "note": "slug=mi-10-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "75685534826787951976275953631896177236439299709473517876953614908104349066066",
+          "market_slug": "will-the-democratic-party-win-the-mi-10-house-seat",
+          "market_id": "942776"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEMI10",
+        "event_ticker": "HOUSEMI10-26",
+        "ticker": "HOUSEMI10-26-D",
+        "market_url": "https://kalshi.com/markets/housemi10/housemi10-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEMI10",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEMI10-26-D"
+        }
+      }
+    },
+    "house-MN-02": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/mn-02-house-election-winner",
+        "event_slug": "mn-02-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-mn-02-house-seat",
+        "market_id": "942820",
+        "condition_id": "0x7319fceb8b5a315eae707028bd654463e48acec082565ef1abd3cc18b424ff6f",
+        "clob_token_yes": "101761583924149127934699530188897560119595562747749947811419542814081248785009",
+        "confidence": "high",
+        "note": "slug=mn-02-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "101761583924149127934699530188897560119595562747749947811419542814081248785009",
+          "market_slug": "will-the-democratic-party-win-the-mn-02-house-seat",
+          "market_id": "942820"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEMN2",
+        "event_ticker": "HOUSEMN2-26",
+        "ticker": "HOUSEMN2-26-D",
+        "market_url": "https://kalshi.com/markets/housemn2/housemn2-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEMN2",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEMN2-26-D"
+        }
+      }
+    },
+    "house-MT-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/mt-01-house-election-winner",
+        "event_slug": "mt-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-mt-01-house-seat",
+        "market_id": "942843",
+        "condition_id": "0xe0fbb3e61e61b14f5fef15ffdd0e2a0c6cf4336bb5b15877fe3e3c9fdcc6bc7f",
+        "clob_token_yes": "94033987553817825990709512567031751048276730850154145976615728913102874968691",
+        "confidence": "high",
+        "note": "slug=mt-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "94033987553817825990709512567031751048276730850154145976615728913102874968691",
+          "market_slug": "will-the-democratic-party-win-the-mt-01-house-seat",
+          "market_id": "942843"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEMT1",
+        "event_ticker": "HOUSEMT1-26",
+        "ticker": "HOUSEMT1-26-D",
+        "market_url": "https://kalshi.com/markets/housemt1/housemt1-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEMT1",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEMT1-26-D"
+        }
+      }
+    },
+    "house-NC-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nc-01-house-election-winner",
+        "event_slug": "nc-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nc-01-house-seat",
+        "market_id": "943477",
+        "condition_id": "0x2b94021bfae4d3742477c683eef5f901e26cdc07d42a3dea536a3092b290f177",
+        "clob_token_yes": "92733851946032612831148041059231077892095455856580382370275967011579615033174",
+        "confidence": "high",
+        "note": "slug=nc-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "92733851946032612831148041059231077892095455856580382370275967011579615033174",
+          "market_slug": "will-the-democratic-party-win-the-nc-01-house-seat",
+          "market_id": "943477"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENC1",
+        "event_ticker": "HOUSENC1-26",
+        "ticker": "HOUSENC1-26-D",
+        "market_url": "https://kalshi.com/markets/housenc1/housenc1-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSENC1 (yes_sub_title=\"Don Davis\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENC1-26-D"
+        }
+      }
+    },
+    "house-NC-11": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nc-11-house-election-winner",
+        "event_slug": "nc-11-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nc-11-house-seat",
+        "market_id": "943542",
+        "condition_id": "0x7fd71c48a98bb515664cadb1f62cf1f27b770fe9cc1216571e183b982a48e42a",
+        "clob_token_yes": "26725090567941494839753555432942030379400825958244897490974743127556962267884",
+        "confidence": "high",
+        "note": "slug=nc-11-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "26725090567941494839753555432942030379400825958244897490974743127556962267884",
+          "market_slug": "will-the-democratic-party-win-the-nc-11-house-seat",
+          "market_id": "943542"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "KXHOUSENC11",
+        "event_ticker": "KXHOUSENC11-26",
+        "ticker": "KXHOUSENC11-26-DEM",
+        "market_url": "https://kalshi.com/markets/kxhousenc11/kxhousenc11-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series KXHOUSENC11 (yes_sub_title=\"Jamie Ager\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "KXHOUSENC11-26-DEM"
+        }
+      }
+    },
+    "house-NE-02": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ne-02-house-election-winner",
+        "event_slug": "ne-02-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ne-02-house-seat",
+        "market_id": "942878",
+        "condition_id": "0x13ab5c37a83d0a2ed874bd931c1c8a10984dcabc37cb67f4e36c807492cbfd3b",
+        "clob_token_yes": "83966667308824872880342632752673759552233526664290166226784097408878282862076",
+        "confidence": "high",
+        "note": "slug=ne-02-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "83966667308824872880342632752673759552233526664290166226784097408878282862076",
+          "market_slug": "will-the-democratic-party-win-the-ne-02-house-seat",
+          "market_id": "942878"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENE2",
+        "event_ticker": "HOUSENE2-26",
+        "ticker": "HOUSENE2-26-D",
+        "market_url": "https://kalshi.com/markets/housene2/housene2-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSENE2 (yes_sub_title=\"Denise Powell\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENE2-26-D"
+        }
+      }
+    },
+    "house-NH-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nh-01-house-election-winner",
+        "event_slug": "nh-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nh-01-house-seat",
+        "market_id": "942910",
+        "condition_id": "0x4460b4d5604834b9579c7b001b19a3faa8441acb6b94b0c35067cf1aaa22d682",
+        "clob_token_yes": "15841973896294397863780283211777886833063131427675236235397936182214462263761",
+        "confidence": "high",
+        "note": "slug=nh-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "15841973896294397863780283211777886833063131427675236235397936182214462263761",
+          "market_slug": "will-the-democratic-party-win-the-nh-01-house-seat",
+          "market_id": "942910"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENH1",
+        "event_ticker": "HOUSENH1-26",
+        "ticker": "HOUSENH1-26-D",
+        "market_url": "https://kalshi.com/markets/housenh1/housenh1-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENH1",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENH1-26-D"
+        }
+      }
+    },
+    "house-NH-02": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nh-02-house-election-winner",
+        "event_slug": "nh-02-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nh-02-house-seat",
+        "market_id": "942928",
+        "condition_id": "0x1790d20eab125a64b999fe78dd91eb8ed116a20d87dd782fad9f45a1f7b4dd58",
+        "clob_token_yes": "75534795972187589723309527934029423835387652456781194739432057625153010696232",
+        "confidence": "high",
+        "note": "slug=nh-02-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "75534795972187589723309527934029423835387652456781194739432057625153010696232",
+          "market_slug": "will-the-democratic-party-win-the-nh-02-house-seat",
+          "market_id": "942928"
+        }
+      },
+      "kalshi": null
+    },
+    "house-NJ-07": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nj-07-house-election-winner",
+        "event_slug": "nj-07-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nj-07-house-seat",
+        "market_id": "942979",
+        "condition_id": "0xdf4512f9c4cdcddd0296b17f54807db88d33685d3142e877f616191f39a3848a",
+        "clob_token_yes": "11150104041135923402729603235169264788695551846877266424704836556138704136153",
+        "confidence": "high",
+        "note": "slug=nj-07-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "11150104041135923402729603235169264788695551846877266424704836556138704136153",
+          "market_slug": "will-the-democratic-party-win-the-nj-07-house-seat",
+          "market_id": "942979"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENJ7",
+        "event_ticker": "HOUSENJ7-26",
+        "ticker": "HOUSENJ7-26-D",
+        "market_url": "https://kalshi.com/markets/housenj7/housenj7-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENJ7",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENJ7-26-D"
+        }
+      }
+    },
+    "house-NJ-09": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nj-09-house-election-winner",
+        "event_slug": "nj-09-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nj-09-house-seat",
+        "market_id": "942987",
+        "condition_id": "0x025e8dbab75a4ab8d57838524c61660d8385ed80608a856d7f85fe5be2c3ce82",
+        "clob_token_yes": "64646801358204661091649152026679678477997607545079265541240545041704334470547",
+        "confidence": "high",
+        "note": "slug=nj-09-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "64646801358204661091649152026679678477997607545079265541240545041704334470547",
+          "market_slug": "will-the-democratic-party-win-the-nj-09-house-seat",
+          "market_id": "942987"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENJ9",
+        "event_ticker": "HOUSENJ9-26",
+        "ticker": "HOUSENJ9-26-D",
+        "market_url": "https://kalshi.com/markets/housenj9/housenj9-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENJ9",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENJ9-26-D"
+        }
+      }
+    },
+    "house-NM-02": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nm-02-house-election-winner",
+        "event_slug": "nm-02-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nm-02-house-seat",
+        "market_id": "942995",
+        "condition_id": "0x20561c7ef692f868c5e4efc6e84cac369ce858a6f07094bc15db9f86adbc4c11",
+        "clob_token_yes": "35251426509377808120747711632625143087614909557664163894190344736809827040538",
+        "confidence": "high",
+        "note": "slug=nm-02-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "35251426509377808120747711632625143087614909557664163894190344736809827040538",
+          "market_slug": "will-the-democratic-party-win-the-nm-02-house-seat",
+          "market_id": "942995"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENM2",
+        "event_ticker": "HOUSENM2-26",
+        "ticker": "HOUSENM2-26-D",
+        "market_url": "https://kalshi.com/markets/housenm2/housenm2-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENM2",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENM2-26-D"
+        }
+      }
+    },
+    "house-NV-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nv-01-house-election-winner",
+        "event_slug": "nv-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nv-01-house-seat",
+        "market_id": "942886",
+        "condition_id": "0x6bc9531fff87196aa1ced85050c8532b1bf75ac18e14a2949180b7d19171256a",
+        "clob_token_yes": "53419693435572371788699892259142418692358073805819213173632989322601750027858",
+        "confidence": "high",
+        "note": "slug=nv-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "53419693435572371788699892259142418692358073805819213173632989322601750027858",
+          "market_slug": "will-the-democratic-party-win-the-nv-01-house-seat",
+          "market_id": "942886"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENV1",
+        "event_ticker": "HOUSENV1-26",
+        "ticker": "HOUSENV1-26-D",
+        "market_url": "https://kalshi.com/markets/housenv1/housenv1-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENV1",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENV1-26-D"
+        }
+      }
+    },
+    "house-NV-03": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nv-03-house-election-winner",
+        "event_slug": "nv-03-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nv-03-house-seat",
+        "market_id": "942894",
+        "condition_id": "0xe2bd695096385d8878a0e7b5e144b94c7a2320a027b0dfd551d4d5a7fc8bc267",
+        "clob_token_yes": "94909040987536769270715360325201420589044604443243218743462043270034738802453",
+        "confidence": "high",
+        "note": "slug=nv-03-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "94909040987536769270715360325201420589044604443243218743462043270034738802453",
+          "market_slug": "will-the-democratic-party-win-the-nv-03-house-seat",
+          "market_id": "942894"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENV3",
+        "event_ticker": "HOUSENV3-26",
+        "ticker": "HOUSENV3-26-D",
+        "market_url": "https://kalshi.com/markets/housenv3/housenv3-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENV3",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENV3-26-D"
+        }
+      }
+    },
+    "house-NV-04": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nv-04-house-election-winner",
+        "event_slug": "nv-04-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-nv-04-house-seat",
+        "market_id": "942902",
+        "condition_id": "0x894c851e55417b7388fcce9f561989f589c2bb755fc5871e187defaf44474314",
+        "clob_token_yes": "37734744071084495350871177726856765634134461816186018873587394886278296213428",
+        "confidence": "high",
+        "note": "slug=nv-04-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "37734744071084495350871177726856765634134461816186018873587394886278296213428",
+          "market_slug": "will-the-democratic-party-win-the-nv-04-house-seat",
+          "market_id": "942902"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENV4",
+        "event_ticker": "HOUSENV4-26",
+        "ticker": "HOUSENV4-26-D",
+        "market_url": "https://kalshi.com/markets/housenv4/housenv4-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENV4",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENV4-26-D"
+        }
+      }
+    },
+    "house-NY-03": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ny-03-house-election-winner",
+        "event_slug": "ny-03-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ny-03-house-seat",
+        "market_id": "943003",
+        "condition_id": "0xd7e7300ecc03a88948a89186d7f06b1000750a7f4a0778e40566d50af9ef3147",
+        "clob_token_yes": "95873286255325136859944314511685433946471154050507766930211873940748656819468",
+        "confidence": "high",
+        "note": "slug=ny-03-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "95873286255325136859944314511685433946471154050507766930211873940748656819468",
+          "market_slug": "will-the-democratic-party-win-the-ny-03-house-seat",
+          "market_id": "943003"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENY3",
+        "event_ticker": "HOUSENY3-26",
+        "ticker": "HOUSENY3-26-D",
+        "market_url": "https://kalshi.com/markets/houseny3/houseny3-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENY3",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENY3-26-D"
+        }
+      }
+    },
+    "house-NY-04": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ny-04-house-election-winner",
+        "event_slug": "ny-04-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ny-04-house-seat",
+        "market_id": "943433",
+        "condition_id": "0xb25c14120fccc079ca222454c6d6a17d0dc43ee19a005fee7cc4b9f04573beb5",
+        "clob_token_yes": "86097217051997272327652501519977514271796973598402973728198470808392429882569",
+        "confidence": "high",
+        "note": "slug=ny-04-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "86097217051997272327652501519977514271796973598402973728198470808392429882569",
+          "market_slug": "will-the-democratic-party-win-the-ny-04-house-seat",
+          "market_id": "943433"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENY4",
+        "event_ticker": "HOUSENY4-26",
+        "ticker": "HOUSENY4-26-D",
+        "market_url": "https://kalshi.com/markets/houseny4/houseny4-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENY4",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENY4-26-D"
+        }
+      }
+    },
+    "house-NY-17": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ny-17-house-election-winner",
+        "event_slug": "ny-17-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ny-17-house-seat",
+        "market_id": "943441",
+        "condition_id": "0x9735676a9c6bc3ee63496bfbe27c5f222d02463c41aa7f7a4e3b645f79cfa29c",
+        "clob_token_yes": "51139697479054469944236132595348770797766976112763062697989474877845630491882",
+        "confidence": "high",
+        "note": "slug=ny-17-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "51139697479054469944236132595348770797766976112763062697989474877845630491882",
+          "market_slug": "will-the-democratic-party-win-the-ny-17-house-seat",
+          "market_id": "943441"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENY17",
+        "event_ticker": "HOUSENY17-26",
+        "ticker": "HOUSENY17-26-D",
+        "market_url": "https://kalshi.com/markets/houseny17/houseny17-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENY17",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENY17-26-D"
+        }
+      }
+    },
+    "house-NY-19": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ny-19-house-election-winner",
+        "event_slug": "ny-19-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-ny-19-house-seat",
+        "market_id": "943457",
+        "condition_id": "0xbd72208a4ceea9fde59f3a42d2f4c5c78bd7cc05c4fada7fe60f877d2fee6dc9",
+        "clob_token_yes": "110513625685552508307985945547975220111251271956311568244995722139152190564594",
+        "confidence": "high",
+        "note": "slug=ny-19-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "110513625685552508307985945547975220111251271956311568244995722139152190564594",
+          "market_slug": "will-the-democratic-party-win-the-ny-19-house-seat",
+          "market_id": "943457"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSENY19",
+        "event_ticker": "HOUSENY19-26",
+        "ticker": "HOUSENY19-26-D",
+        "market_url": "https://kalshi.com/markets/houseny19/houseny19-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSENY19",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSENY19-26-D"
+        }
+      }
+    },
+    "house-OH-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/oh-01-house-election-winner",
+        "event_slug": "oh-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-oh-01-house-seat",
+        "market_id": "943559",
+        "condition_id": "0x4af0fa1c69cdf730e0af62b006e31b6c0bf2b73ed66819bfdb44b6a85d7b8192",
+        "clob_token_yes": "54683918395285218242154486097975094247311771681306620842955201199347227560316",
+        "confidence": "high",
+        "note": "slug=oh-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "54683918395285218242154486097975094247311771681306620842955201199347227560316",
+          "market_slug": "will-the-democratic-party-win-the-oh-01-house-seat",
+          "market_id": "943559"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEOH1",
+        "event_ticker": "HOUSEOH1-26",
+        "ticker": "HOUSEOH1-26-D",
+        "market_url": "https://kalshi.com/markets/houseoh1/houseoh1-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEOH1 (yes_sub_title=\"Greg Landsman\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEOH1-26-D"
+        }
+      }
+    },
+    "house-OH-09": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/oh-09-house-election-winner",
+        "event_slug": "oh-09-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-oh-09-house-seat",
+        "market_id": "943571",
+        "condition_id": "0x47620df478cd381b061f6ee36fe420ed53d29a17bffa9a0507c3d1b6398d0503",
+        "clob_token_yes": "65572553957974162720266895822584213678027747609322437193492482509621073910869",
+        "confidence": "high",
+        "note": "slug=oh-09-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "65572553957974162720266895822584213678027747609322437193492482509621073910869",
+          "market_slug": "will-the-democratic-party-win-the-oh-09-house-seat",
+          "market_id": "943571"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEOH9",
+        "event_ticker": "HOUSEOH9-26",
+        "ticker": "HOUSEOH9-26-D",
+        "market_url": "https://kalshi.com/markets/houseoh9/houseoh9-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEOH9 (yes_sub_title=\"Marcy Kaptur\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEOH9-26-D"
+        }
+      }
+    },
+    "house-OH-13": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/oh-13-house-election-winner",
+        "event_slug": "oh-13-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-oh-13-house-seat",
+        "market_id": "943579",
+        "condition_id": "0xc528b5c384832a754585eeb005f96efd2842db3db1ebfd574bc3c8235a6dbae0",
+        "clob_token_yes": "34914084499338340703893043515733081691189506455850739325273268392987246939324",
+        "confidence": "high",
+        "note": "slug=oh-13-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "34914084499338340703893043515733081691189506455850739325273268392987246939324",
+          "market_slug": "will-the-democratic-party-win-the-oh-13-house-seat",
+          "market_id": "943579"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEOH13",
+        "event_ticker": "HOUSEOH13-26",
+        "ticker": "HOUSEOH13-26-D",
+        "market_url": "https://kalshi.com/markets/houseoh13/houseoh13-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEOH13 (yes_sub_title=\"Emilia Sykes\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEOH13-26-D"
+        }
+      }
+    },
+    "house-OR-05": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/or-05-house-election-winner",
+        "event_slug": "or-05-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-or-05-house-seat",
+        "market_id": "943741",
+        "condition_id": "0x57d601622f7211f1bafc592e21baf81df8f44741e6ee708aee2449b49b58fc82",
+        "clob_token_yes": "12668390728546664562591096503585520540809771817912759179044387646050235405928",
+        "confidence": "high",
+        "note": "slug=or-05-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "12668390728546664562591096503585520540809771817912759179044387646050235405928",
+          "market_slug": "will-the-democratic-party-win-the-or-05-house-seat",
+          "market_id": "943741"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEOR5",
+        "event_ticker": "HOUSEOR5-26",
+        "ticker": "HOUSEOR5-26-D",
+        "market_url": "https://kalshi.com/markets/houseor5/houseor5-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEOR5 (yes_sub_title=\"Janelle Bynum\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEOR5-26-D"
+        }
+      }
+    },
+    "house-PA-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/pa-01-house-election-winner",
+        "event_slug": "pa-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-pa-01-house-seat",
+        "market_id": "943749",
+        "condition_id": "0x27a4dd39adf63849239f3b260b701e1ce1c3a08b8e3624b1dbc2c1268ea87537",
+        "clob_token_yes": "90438836256571410927299008367228796312209722771624666597034907143954367060240",
+        "confidence": "high",
+        "note": "slug=pa-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "90438836256571410927299008367228796312209722771624666597034907143954367060240",
+          "market_slug": "will-the-democratic-party-win-the-pa-01-house-seat",
+          "market_id": "943749"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEPA1",
+        "event_ticker": "HOUSEPA1-26",
+        "ticker": "HOUSEPA1-26-D",
+        "market_url": "https://kalshi.com/markets/housepa1/housepa1-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEPA1 (yes_sub_title=\"Bob Harvie\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEPA1-26-D"
+        }
+      }
+    },
+    "house-PA-07": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/pa-07-house-election-winner",
+        "event_slug": "pa-07-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-pa-07-house-seat",
+        "market_id": "943797",
+        "condition_id": "0x863ec10c7b201b57ff3ca07ddbc74c5c464bb9ac732d2e003786b8455658592a",
+        "clob_token_yes": "37713776886536763857380242322222367371582682723176215910322979366716585040762",
+        "confidence": "high",
+        "note": "slug=pa-07-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "37713776886536763857380242322222367371582682723176215910322979366716585040762",
+          "market_slug": "will-the-democratic-party-win-the-pa-07-house-seat",
+          "market_id": "943797"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEPA7",
+        "event_ticker": "HOUSEPA7-26",
+        "ticker": "HOUSEPA7-26-D",
+        "market_url": "https://kalshi.com/markets/housepa7/housepa7-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEPA7 (yes_sub_title=\"Bob Brooks\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEPA7-26-D"
+        }
+      }
+    },
+    "house-PA-08": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/pa-08-house-election-winner",
+        "event_slug": "pa-08-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-pa-08-house-seat",
+        "market_id": "943943",
+        "condition_id": "0xddcb215d8c020c9794ed641720bde228d41f7fbbc8591e6c93e6cb7b9ed39efc",
+        "clob_token_yes": "91391435832155617612019982139435697661029161851437556799916148343508709382987",
+        "confidence": "high",
+        "note": "slug=pa-08-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "91391435832155617612019982139435697661029161851437556799916148343508709382987",
+          "market_slug": "will-the-democratic-party-win-the-pa-08-house-seat",
+          "market_id": "943943"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEPA8",
+        "event_ticker": "HOUSEPA8-26",
+        "ticker": "HOUSEPA8-26-D",
+        "market_url": "https://kalshi.com/markets/housepa8/housepa8-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEPA8 (yes_sub_title=\"Paige Cognetti\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEPA8-26-D"
+        }
+      }
+    },
+    "house-PA-10": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/pa-10-house-election-winner",
+        "event_slug": "pa-10-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-pa-10-house-seat",
+        "market_id": "943955",
+        "condition_id": "0x1ba8c5b414501846fafc1639481a839d57bc3bbb62471400e86224e93c2281f5",
+        "clob_token_yes": "87725551185270618291722253233951821932371187994043126950008311468794742299797",
+        "confidence": "high",
+        "note": "slug=pa-10-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "87725551185270618291722253233951821932371187994043126950008311468794742299797",
+          "market_slug": "will-the-democratic-party-win-the-pa-10-house-seat",
+          "market_id": "943955"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEPA10",
+        "event_ticker": "HOUSEPA10-26",
+        "ticker": "HOUSEPA10-26-D",
+        "market_url": "https://kalshi.com/markets/housepa10/housepa10-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSEPA10 (yes_sub_title=\"Janelle Stelson\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEPA10-26-D"
+        }
+      }
+    },
+    "house-TX-15": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/tx-15-house-election-winner",
+        "event_slug": "tx-15-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-tx-15-house-seat",
+        "market_id": "944201",
+        "condition_id": "0xd1f23e2bc9c61979e1c9f53bd0b76de8ef9cf5bcbc92ecfbccfbf67bfd3c8801",
+        "clob_token_yes": "6584875983046678011286869107197719818123093254495444235544680527373303971994",
+        "confidence": "high",
+        "note": "slug=tx-15-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "6584875983046678011286869107197719818123093254495444235544680527373303971994",
+          "market_slug": "will-the-democratic-party-win-the-tx-15-house-seat",
+          "market_id": "944201"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSETX15",
+        "event_ticker": "HOUSETX15-26",
+        "ticker": "HOUSETX15-26-D",
+        "market_url": "https://kalshi.com/markets/housetx15/housetx15-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSETX15 (yes_sub_title=\"Bobby Pulido\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSETX15-26-D"
+        }
+      }
+    },
+    "house-TX-23": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/tx-23-house-election-winner",
+        "event_slug": "tx-23-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-tx-23-house-seat",
+        "market_id": "1284960",
+        "condition_id": "0x11ecf669ab21e4849825f7167a4c4e6b49b56b474bd6b052d5a31f82f19c3d29",
+        "clob_token_yes": "61226688777298855109760287075145560866932162430262148603800321887784593630496",
+        "confidence": "high",
+        "note": "slug=tx-23-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "61226688777298855109760287075145560866932162430262148603800321887784593630496",
+          "market_slug": "will-the-democratic-party-win-the-tx-23-house-seat",
+          "market_id": "1284960"
+        }
+      },
+      "kalshi": null
+    },
+    "house-TX-28": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/tx-28-house-election-winner",
+        "event_slug": "tx-28-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-tx-28-house-seat",
+        "market_id": "944222",
+        "condition_id": "0x404f17162fa31cfc9b4ce7688a274bc30afe8394cae0077d944b43e22cc4fac2",
+        "clob_token_yes": "84241107374483193244606511118129186494443849681135554558545774792234903960353",
+        "confidence": "high",
+        "note": "slug=tx-28-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "84241107374483193244606511118129186494443849681135554558545774792234903960353",
+          "market_slug": "will-the-democratic-party-win-the-tx-28-house-seat",
+          "market_id": "944222"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSETX28",
+        "event_ticker": "HOUSETX28-26",
+        "ticker": "HOUSETX28-26-D",
+        "market_url": "https://kalshi.com/markets/housetx28/housetx28-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSETX28 (yes_sub_title=\"Henry Cuellar\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSETX28-26-D"
+        }
+      }
+    },
+    "house-TX-34": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/tx-34-house-election-winner",
+        "event_slug": "tx-34-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-tx-34-house-seat",
+        "market_id": "944238",
+        "condition_id": "0x7018d32e315a69c0537fc42f8e574ee4a24b3babaae302cda79fb0c355e0df1a",
+        "clob_token_yes": "84371186359433032934344934234365568331165136826770723604045723165294252654116",
+        "confidence": "high",
+        "note": "slug=tx-34-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "84371186359433032934344934234365568331165136826770723604045723165294252654116",
+          "market_slug": "will-the-democratic-party-win-the-tx-34-house-seat",
+          "market_id": "944238"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSETX34",
+        "event_ticker": "HOUSETX34-26",
+        "ticker": "HOUSETX34-26-D",
+        "market_url": "https://kalshi.com/markets/housetx34/housetx34-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series HOUSETX34 (yes_sub_title=\"Vicente Gonzalez\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSETX34-26-D"
+        }
+      }
+    },
+    "house-TX-35": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/tx-35-house-election-winner",
+        "event_slug": "tx-35-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-tx-35-house-seat",
+        "market_id": "944250",
+        "condition_id": "0x8d327131d3f3f8c6a517250e07cbc8914a9d7c378f0662e4984d25f326d13205",
+        "clob_token_yes": "5339899814292845593775846980480523063906400681832167807317855849721141409634",
+        "confidence": "high",
+        "note": "slug=tx-35-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "5339899814292845593775846980480523063906400681832167807317855849721141409634",
+          "market_slug": "will-the-democratic-party-win-the-tx-35-house-seat",
+          "market_id": "944250"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "KXHOUSETX35",
+        "event_ticker": "KXHOUSETX35-26",
+        "ticker": "KXHOUSETX35-26-D",
+        "market_url": "https://kalshi.com/markets/kxhousetx35/kxhousetx35-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series KXHOUSETX35 (yes_sub_title=\"Johnny C. Garcia\")",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "KXHOUSETX35-26-D"
+        }
+      }
+    },
+    "house-VA-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/va-01-house-election-winner",
+        "event_slug": "va-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-va-01-house-seat",
+        "market_id": "944282",
+        "condition_id": "0xf6ff4c55696ff8529e6e1021f4e4a17adaa305c4991d9001bcbf7a5fbdd326d3",
+        "clob_token_yes": "88628412725357801969852238315853152041907755032296775468463465337049299853893",
+        "confidence": "high",
+        "note": "slug=va-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "88628412725357801969852238315853152041907755032296775468463465337049299853893",
+          "market_slug": "will-the-democratic-party-win-the-va-01-house-seat",
+          "market_id": "944282"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEVA1",
+        "event_ticker": "HOUSEVA1-26",
+        "ticker": "HOUSEVA1-26-D",
+        "market_url": "https://kalshi.com/markets/houseva1/houseva1-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEVA1",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEVA1-26-D"
+        }
+      }
+    },
+    "house-VA-02": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/va-02-house-election-winner",
+        "event_slug": "va-02-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-va-02-house-seat",
+        "market_id": "944290",
+        "condition_id": "0xc4362a042c364699d66cf44f69e2dac40a889ac9c83a92195084628c39257b32",
+        "clob_token_yes": "113775721914358731979638137579752258137123447875996657512004068518320376669224",
+        "confidence": "high",
+        "note": "slug=va-02-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "113775721914358731979638137579752258137123447875996657512004068518320376669224",
+          "market_slug": "will-the-democratic-party-win-the-va-02-house-seat",
+          "market_id": "944290"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEVA2",
+        "event_ticker": "HOUSEVA2-26",
+        "ticker": "HOUSEVA2-26-D",
+        "market_url": "https://kalshi.com/markets/houseva2/houseva2-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEVA2",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEVA2-26-D"
+        }
+      }
+    },
+    "house-VA-07": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/va-07-house-election-winner",
+        "event_slug": "va-07-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-va-07-house-seat",
+        "market_id": "944298",
+        "condition_id": "0xeca572826dbd8548c7969c165c5abdca214bb94e7b7191fae36cc898482d7eb9",
+        "clob_token_yes": "98075623222143547346037366837071572541450376316433615657989340175250414958486",
+        "confidence": "high",
+        "note": "slug=va-07-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "98075623222143547346037366837071572541450376316433615657989340175250414958486",
+          "market_slug": "will-the-democratic-party-win-the-va-07-house-seat",
+          "market_id": "944298"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEVA7",
+        "event_ticker": "HOUSEVA7-26",
+        "ticker": "HOUSEVA7-26-D",
+        "market_url": "https://kalshi.com/markets/houseva7/houseva7-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEVA7",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEVA7-26-D"
+        }
+      }
+    },
+    "house-WA-03": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/wa-03-house-election-winner",
+        "event_slug": "wa-03-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-wa-03-house-seat",
+        "market_id": "944314",
+        "condition_id": "0x2ceb07772252792c439a2cef76f9661da5c96475d939e2f7c5e99e0708186d4c",
+        "clob_token_yes": "62003269433640683744291727761785528693342099533191419822618434570267086928393",
+        "confidence": "high",
+        "note": "slug=wa-03-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "62003269433640683744291727761785528693342099533191419822618434570267086928393",
+          "market_slug": "will-the-democratic-party-win-the-wa-03-house-seat",
+          "market_id": "944314"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEWA3",
+        "event_ticker": "HOUSEWA3-26",
+        "ticker": "HOUSEWA3-26-D",
+        "market_url": "https://kalshi.com/markets/housewa3/housewa3-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEWA3",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEWA3-26-D"
+        }
+      }
+    },
+    "house-WI-01": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/wi-01-house-election-winner",
+        "event_slug": "wi-01-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-wi-01-house-seat",
+        "market_id": "944334",
+        "condition_id": "0x55c186d303a88f67eb790a5486e0d5430352ed3c018e9602af313b873ae7c6ae",
+        "clob_token_yes": "27864379735636967187061174592974985530606192477476602134082994654383977817622",
+        "confidence": "high",
+        "note": "slug=wi-01-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "27864379735636967187061174592974985530606192477476602134082994654383977817622",
+          "market_slug": "will-the-democratic-party-win-the-wi-01-house-seat",
+          "market_id": "944334"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEWI1",
+        "event_ticker": "HOUSEWI1-26",
+        "ticker": "HOUSEWI1-26-D",
+        "market_url": "https://kalshi.com/markets/housewi1/housewi1-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEWI1",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEWI1-26-D"
+        }
+      }
+    },
+    "house-WI-03": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/wi-03-house-election-winner",
+        "event_slug": "wi-03-house-election-winner",
+        "market_slug": "will-the-democratic-party-win-the-wi-03-house-seat",
+        "market_id": "944342",
+        "condition_id": "0x5b1d46c7f29397ca3a713ccdae49131bafdd0ff7f217895c3e7042a72d27ce1a",
+        "clob_token_yes": "98533340650340151055858210214498969967462170000657407829633743183238896087456",
+        "confidence": "high",
+        "note": "slug=wi-03-house-election-winner, party-level Democrat market with prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "98533340650340151055858210214498969967462170000657407829633743183238896087456",
+          "market_slug": "will-the-democratic-party-win-the-wi-03-house-seat",
+          "market_id": "944342"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "HOUSEWI3",
+        "event_ticker": "HOUSEWI3-26",
+        "ticker": "HOUSEWI3-26-D",
+        "market_url": "https://kalshi.com/markets/housewi3/housewi3-26",
+        "confidence": "high",
+        "note": "party-level market in series HOUSEWI3",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "HOUSEWI3-26-D"
+        }
+      }
+    },
+    "senate-AK": {
+      "polymarket": null,
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEAK",
+        "event_ticker": "SENATEAK-26",
+        "ticker": "SENATEAK-26-D",
+        "market_url": "https://kalshi.com/markets/senateak/senateak-26",
+        "confidence": "high",
+        "note": "party-level market in series SENATEAK",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEAK-26-D"
+        }
+      }
+    },
+    "senate-GA": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/georgia-senate-election-winner",
+        "event_slug": "georgia-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-georgia-senate-race-in-2026",
+        "market_id": "630692",
+        "condition_id": "0x3c5b93b91196c8db64e63c424979da8cfbf44a4501afd70d2480ee28fbf306a2",
+        "clob_token_yes": "21024219148268989748704207701411444044468128261642675917026452687231462203167",
+        "confidence": "high",
+        "note": "party-level Democrat sub-market with active prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "21024219148268989748704207701411444044468128261642675917026452687231462203167",
+          "market_slug": "will-the-democrats-win-the-georgia-senate-race-in-2026",
+          "market_id": "630692"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEGA",
+        "event_ticker": "SENATEGA-28",
+        "ticker": "SENATEGA-28-D",
+        "market_url": "https://kalshi.com/markets/senatega/senatega-28",
+        "confidence": "high",
+        "note": "party-level market in series SENATEGA",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEGA-28-D"
+        }
+      }
+    },
+    "senate-IA": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/iowa-senate-election-winner",
+        "event_slug": "iowa-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-iowa-senate-race-in-2026",
+        "market_id": "630733",
+        "condition_id": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1",
+        "clob_token_yes": "90689690530039118737607894922148077480097700217322320781526913496162509181445",
+        "confidence": "high",
+        "note": "party-level Democrat sub-market with active prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "90689690530039118737607894922148077480097700217322320781526913496162509181445",
+          "market_slug": "will-the-democrats-win-the-iowa-senate-race-in-2026",
+          "market_id": "630733"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEIA",
+        "event_ticker": "SENATEIA-26",
+        "ticker": "SENATEIA-26-D",
+        "market_url": "https://kalshi.com/markets/senateia/senateia-26",
+        "confidence": "high",
+        "note": "party-level market in series SENATEIA",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEIA-26-D"
+        }
+      }
+    },
+    "senate-ME": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/maine-senate-election-winner",
+        "event_slug": "maine-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-maine-senate-race-in-2026",
+        "market_id": "630772",
+        "condition_id": "0x66bbf6d55e0296278858b3147689f3df9259374f158f9f028b608baa322a639c",
+        "clob_token_yes": "7589880081658059374445882095611024032084645048848237404312287942463647821549",
+        "confidence": "high",
+        "note": "party-level Democrat sub-market with active prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "7589880081658059374445882095611024032084645048848237404312287942463647821549",
+          "market_slug": "will-the-democrats-win-the-maine-senate-race-in-2026",
+          "market_id": "630772"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEME",
+        "event_ticker": "SENATEME-26",
+        "ticker": "SENATEME-26-D",
+        "market_url": "https://kalshi.com/markets/senateme/senateme-26",
+        "confidence": "high",
+        "note": "party-level market in series SENATEME",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEME-26-D"
+        }
+      }
+    },
+    "senate-MI": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/michigan-senate-election-winner",
+        "event_slug": "michigan-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-michigan-senate-race-in-2026",
+        "market_id": "630805",
+        "condition_id": "0xbfeb6d4cf3eab6071e204219b0647c8224d63a12778df467311b5f2a4b3a5bd4",
+        "clob_token_yes": "71772627544132140586824126381855151743830987860593343955509593715269534710061",
+        "confidence": "high",
+        "note": "party-level Democrat sub-market with active prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "71772627544132140586824126381855151743830987860593343955509593715269534710061",
+          "market_slug": "will-the-democrats-win-the-michigan-senate-race-in-2026",
+          "market_id": "630805"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEMI",
+        "event_ticker": "SENATEMI-26",
+        "ticker": "SENATEMI-26-D",
+        "market_url": "https://kalshi.com/markets/senatemi/senatemi-26",
+        "confidence": "high",
+        "note": "party-level market in series SENATEMI",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEMI-26-D"
+        }
+      }
+    },
+    "senate-MN": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/minnesota-senate-election-winner",
+        "event_slug": "minnesota-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-minnesota-senate-race-in-2026",
+        "market_id": "630818",
+        "condition_id": "0x44b642636473fb07f0c2319a1d25729a36134969076ffdbb8979cbfdda612b14",
+        "clob_token_yes": "5210147086444382339849101722545511095151948730486562412029285471203011774407",
+        "confidence": "high",
+        "note": "party-level Democrat sub-market with active prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "5210147086444382339849101722545511095151948730486562412029285471203011774407",
+          "market_slug": "will-the-democrats-win-the-minnesota-senate-race-in-2026",
+          "market_id": "630818"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEMN",
+        "event_ticker": "SENATEMN-26",
+        "ticker": "SENATEMN-26-D",
+        "market_url": "https://kalshi.com/markets/senatemn/senatemn-26",
+        "confidence": "high",
+        "note": "party-level market in series SENATEMN",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEMN-26-D"
+        }
+      }
+    },
+    "senate-NC": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/north-carolina-senate-election-winner",
+        "event_slug": "north-carolina-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-north-carolina-senate-race-in-2026",
+        "market_id": "630883",
+        "condition_id": "0x129dbcb7d39ff8df5f0d7685a2db6400b5db37d3963914486fbb7fd2bc96a923",
+        "clob_token_yes": "107151098936186723859677628536733880558851060002514795735761427447010628440047",
+        "confidence": "medium",
+        "note": "no party sub-market; using candidate \"Roy Cooper (D)\" (highest-price D)",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "107151098936186723859677628536733880558851060002514795735761427447010628440047",
+          "market_slug": "will-the-democrats-win-the-north-carolina-senate-race-in-2026",
+          "market_id": "630883"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATENC",
+        "event_ticker": "SENATENC-28",
+        "ticker": "SENATENC-28-D",
+        "market_url": "https://kalshi.com/markets/senatenc/senatenc-28",
+        "confidence": "high",
+        "note": "party-level market in series SENATENC",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATENC-28-D"
+        }
+      }
+    },
+    "senate-NE": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/nebraska-senate-election-winner",
+        "event_slug": "nebraska-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-nebraska-senate-race-in-2026",
+        "market_id": "634891",
+        "condition_id": "0x12ac475399b12fd74917ccf0e29ce338eb4fc76c066cc8b56d01d2f9a2b17597",
+        "clob_token_yes": "55269299240433422758148290868724152324629587438760275683104577693660207425448",
+        "confidence": "high",
+        "note": "party-level Democrat sub-market with active prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "55269299240433422758148290868724152324629587438760275683104577693660207425448",
+          "market_slug": "will-the-democrats-win-the-nebraska-senate-race-in-2026",
+          "market_id": "634891"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATENE",
+        "event_ticker": "SENATENE-26",
+        "ticker": "SENATENE-26-D",
+        "market_url": "https://kalshi.com/markets/senatene/senatene-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series SENATENE (yes_sub_title=\"Cindy Burbank\"); verify candidate is Democratic nominee",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATENE-26-D"
+        }
+      }
+    },
+    "senate-NH": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/new-hampshire-senate-election-winner",
+        "event_slug": "new-hampshire-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-new-hampshire-senate-race-in-2026",
+        "market_id": "630844",
+        "condition_id": "0xfc5c740e4617eb9908ceada7c91bfbe1cd41f172d703ef811d544e60a7a70bb5",
+        "clob_token_yes": "82410058691149830741200014405570918770267839390767234397030380747995715352939",
+        "confidence": "high",
+        "note": "party-level Democrat sub-market with active prices",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "82410058691149830741200014405570918770267839390767234397030380747995715352939",
+          "market_slug": "will-the-democrats-win-the-new-hampshire-senate-race-in-2026",
+          "market_id": "630844"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATENH",
+        "event_ticker": "SENATENH-26",
+        "ticker": "SENATENH-26-D",
+        "market_url": "https://kalshi.com/markets/senatenh/senatenh-26",
+        "confidence": "high",
+        "note": "party-level market in series SENATENH",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATENH-26-D"
+        }
+      }
+    },
+    "senate-OH": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/ohio-senate-election-winner",
+        "event_slug": "ohio-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-ohio-senate-race-in-2026",
+        "market_id": "631057",
+        "condition_id": "0x968a1a79e001d49fa3ee1429e3b95eb01797587740f86d4e6becf3ab1b275bfb",
+        "clob_token_yes": "83018072688154066292491996133599479395547801317505487833443670253228061205312",
+        "confidence": "medium",
+        "note": "no party sub-market; using candidate \"Sherrod Brown (D)\" (highest-price D)",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "83018072688154066292491996133599479395547801317505487833443670253228061205312",
+          "market_slug": "will-the-democrats-win-the-ohio-senate-race-in-2026",
+          "market_id": "631057"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEOH",
+        "event_ticker": "SENATEOH-28",
+        "ticker": "SENATEOH-28-D",
+        "market_url": "https://kalshi.com/markets/senateoh/senateoh-28",
+        "confidence": "high",
+        "note": "party-level market in series SENATEOH",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEOH-28-D"
+        }
+      }
+    },
+    "senate-TX": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_url": "https://polymarket.com/event/texas-senate-election-winner",
+        "event_slug": "texas-senate-election-winner",
+        "market_slug": "will-the-democrats-win-the-texas-senate-race-in-2026",
+        "market_id": "630963",
+        "condition_id": "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417",
+        "clob_token_yes": "15290572385458522370285732869432740297199321382471116558439914335588167718663",
+        "confidence": "medium",
+        "note": "no party sub-market; using candidate \"James Talarico (D)\" (highest-price D)",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "15290572385458522370285732869432740297199321382471116558439914335588167718663",
+          "market_slug": "will-the-democrats-win-the-texas-senate-race-in-2026",
+          "market_id": "630963"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATETX",
+        "event_ticker": "SENATETX-26",
+        "ticker": "SENATETX-26-D",
+        "market_url": "https://kalshi.com/markets/senatetx/senatetx-26",
+        "confidence": "medium",
+        "note": "candidate-level market in series SENATETX (yes_sub_title=\"James Talarico\"); verify candidate is Democratic nominee",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATETX-26-D"
+        }
+      }
+    }
+  }
+}
