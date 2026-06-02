@@ -13,7 +13,7 @@ export default function App() {
     <div className="min-h-screen pb-24">
       <Header includeLean={includeLean} onIncludeLeanChange={setIncludeLean} />
 
-      <main className="container max-w-6xl mx-auto px-4 sm:px-6 mt-8 sm:mt-12 space-y-12">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 mt-8 sm:mt-12 space-y-12">
         <section className="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-2">
           <ChamberCard chamber="senate" markets={marketsQ.data?.chamber_control.senate} />
           <ChamberCard chamber="house" markets={marketsQ.data?.chamber_control.house} />
@@ -65,7 +65,7 @@ function Header({
 }) {
   return (
     <header className="border-b border-border/40 sticky top-0 z-30 backdrop-blur-xl bg-background/70">
-      <div className="container max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-4">
         <div className="flex items-center gap-3 min-w-0">
           <span className="pulse-dot shrink-0" aria-hidden />
           <div className="min-w-0">
@@ -141,7 +141,7 @@ function ErrorState({ message }: { message: string }) {
 
 function Footer() {
   return (
-    <footer className="container max-w-6xl mx-auto px-4 sm:px-6 mt-24 text-xs text-muted-foreground">
+    <footer className="max-w-6xl mx-auto px-4 sm:px-6 mt-24 text-xs text-muted-foreground">
       <div className="border-t border-border/40 pt-6 flex flex-wrap gap-x-6 gap-y-2">
         <span>Probabilities = market prices.</span>
         <span>Ratings: Cook Political Report.</span>

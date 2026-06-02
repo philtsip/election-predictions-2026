@@ -2,6 +2,15 @@
 
 Project rules for any AI agent (Claude Code, Cursor, etc.) working in this repo.
 
+## Stack
+
+- **React 19** + **Vite 6** (TypeScript).
+- **Tailwind CSS v4** — config lives in CSS (`src/index.css` via `@theme` /
+  `@utility`), wired through the `@tailwindcss/vite` plugin. There is **no**
+  `tailwind.config.js`, `postcss.config.*`, or `autoprefixer` — do not re-add
+  them. Animations come from `tw-animate-css`.
+- Radix UI primitives (hand-rolled in `src/components/ui/`), React Query for data.
+
 ## Package manager — use Bun, not npm
 
 This project uses **bun** as its package manager and TS runner.

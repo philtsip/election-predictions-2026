@@ -1,25 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "tw-animate-css";
 
+/* ── Design tokens (Tailwind v4 theme) ───────────────────────────────── */
+@theme {
+  --color-background: hsl(222 47% 6%);
+  --color-foreground: hsl(210 40% 98%);
+
+  --color-card: hsl(222 47% 9%);
+  --color-card-foreground: hsl(210 40% 98%);
+
+  --color-muted: hsl(217 33% 14%);
+  --color-muted-foreground: hsl(215 20% 65%);
+
+  --color-primary: hsl(210 40% 98%);
+  --color-primary-foreground: hsl(222 47% 11%);
+
+  --color-border: hsl(217 33% 17%);
+  --color-input: hsl(217 33% 17%);
+  --color-ring: hsl(213 27% 84%);
+
+  --color-dem: hsl(215 90% 60%);
+  --color-dem-soft: hsl(215 90% 60% / 0.18);
+  --color-rep: hsl(0 75% 62%);
+  --color-rep-soft: hsl(0 75% 62% / 0.18);
+  --color-tossup: hsl(38 95% 60%);
+  --color-tossup-soft: hsl(38 95% 60% / 0.18);
+
+  --breakpoint-xs: 25rem; /* 400px */
+
+  --radius-sm: calc(0.75rem - 4px);
+  --radius-md: calc(0.75rem - 2px);
+  --radius-lg: 0.75rem;
+}
+
+/* ── Base ─────────────────────────────────────────────────────────────── */
 @layer base {
-  :root {
-    --background: 222 47% 6%;
-    --foreground: 210 40% 98%;
-    --card: 222 47% 9%;
-    --card-foreground: 210 40% 98%;
-    --muted: 217 33% 14%;
-    --muted-foreground: 215 20% 65%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222 47% 11%;
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
-    --ring: 213 27% 84%;
-    --radius: 0.75rem;
-  }
-
-  * {
-    border-color: hsl(var(--border));
+  /* v4's default border color is currentColor; restore the themed border. */
+  *,
+  ::before,
+  ::after {
+    border-color: var(--color-border);
   }
 
   html {
@@ -27,8 +47,8 @@
   }
 
   body {
-    background-color: hsl(var(--background));
-    color: hsl(var(--foreground));
+    background-color: var(--color-background);
+    color: var(--color-foreground);
     -webkit-font-smoothing: antialiased;
     font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
       Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -68,46 +88,43 @@
   }
 }
 
-@layer utilities {
-  .font-serif {
-    font-family: "Instrument Serif", "Times New Roman", ui-serif, Georgia, serif;
-    font-feature-settings: normal;
-  }
-  .font-mono {
-    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono",
-      Menlo, monospace;
-  }
-  .tabular {
-    font-variant-numeric: tabular-nums;
-  }
+/* ── Custom utilities ─────────────────────────────────────────────────── */
+@utility font-serif {
+  font-family: "Instrument Serif", "Times New Roman", ui-serif, Georgia, serif;
+  font-feature-settings: normal;
+}
 
-  .pulse-dot {
-    position: relative;
-    display: inline-block;
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 9999px;
-    background: hsl(142 70% 50%);
-  }
-  .pulse-dot::after {
+@utility font-mono {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo,
+    monospace;
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility pulse-dot {
+  position: relative;
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: hsl(142 70% 50%);
+
+  &::after {
     content: "";
     position: absolute;
     inset: 0;
     border-radius: 9999px;
     background: hsl(142 70% 50%);
-    animation: ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+    animation: pulse-ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
   }
-  @keyframes ping {
-    75%, 100% {
-      transform: scale(2.4);
-      opacity: 0;
-    }
-  }
+}
 
-  .grain {
-    position: relative;
-  }
-  .grain::after {
+@utility grain {
+  position: relative;
+
+  &::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -116,5 +133,13 @@
     opacity: 0.5;
     pointer-events: none;
     mix-blend-mode: overlay;
+  }
+}
+
+@keyframes pulse-ping {
+  75%,
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
   }
 }

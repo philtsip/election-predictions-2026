@@ -1,6 +1,66 @@
 [
   {
     "chamber": "house",
+    "state": "AK",
+    "district": 0,
+    "cook_rating": "likely_r",
+    "pvi": "R+6",
+    "cook_url": "https://www.cookpolitical.com/house/race/481751",
+    "candidates": [
+      {
+        "first_name": "Nick Begich",
+        "last_name": "III",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "AZ",
+    "district": 1,
+    "cook_rating": "tossup",
+    "pvi": "R+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/481756",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "AZ",
+    "district": 2,
+    "cook_rating": "likely_r",
+    "pvi": "R+7",
+    "cook_url": "https://www.cookpolitical.com/house/race/481761",
+    "candidates": [
+      {
+        "first_name": "Eli",
+        "last_name": "Crane",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "AZ",
+    "district": 6,
+    "cook_rating": "tossup",
+    "pvi": "EVEN",
+    "cook_url": "https://www.cookpolitical.com/house/race/481781",
+    "candidates": [
+      {
+        "first_name": "Juan",
+        "last_name": "Ciscomani",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
     "state": "CA",
     "district": 13,
     "cook_rating": "lean_d",
@@ -15,6 +75,947 @@
         "bio": null
       }
     ]
+  },
+  {
+    "chamber": "house",
+    "state": "CA",
+    "district": 21,
+    "cook_rating": "likely_d",
+    "pvi": "D+5",
+    "cook_url": "https://www.cookpolitical.com/house/race/481921",
+    "candidates": [
+      {
+        "first_name": "Jim",
+        "last_name": "Costa",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "COSTA, Jim, a Representative from California; born in Fresno, Fresno County, Calif., April 13, 1952; B.A., California State University, Fresno, Calif., 1974; member of the California state assembly, 1978-1994; member of the California state senate, 1994-2002; professional advocate; elected as a Democrat to the One Hundred Ninth and to the six succeeding Congresses (January 3, 2005-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "CA",
+    "district": 22,
+    "cook_rating": "tossup",
+    "pvi": "D+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/481926",
+    "candidates": [
+      {
+        "first_name": "David",
+        "last_name": "Valadao",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "CA",
+    "district": 45,
+    "cook_rating": "lean_d",
+    "pvi": "D+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/482041",
+    "candidates": [
+      {
+        "first_name": "Derek",
+        "last_name": "Tran",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "CA",
+    "district": 48,
+    "cook_rating": "lean_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/482056",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "CO",
+    "district": 5,
+    "cook_rating": "likely_r",
+    "pvi": "R+5",
+    "cook_url": "https://www.cookpolitical.com/house/race/482466",
+    "candidates": [
+      {
+        "first_name": "Jeff",
+        "last_name": "Crank",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "CO",
+    "district": 8,
+    "cook_rating": "tossup",
+    "pvi": "EVEN",
+    "cook_url": "https://www.cookpolitical.com/house/race/482481",
+    "candidates": [
+      {
+        "first_name": "Gabe",
+        "last_name": "Evans",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "FL",
+    "district": 7,
+    "cook_rating": "likely_r",
+    "pvi": "R+5",
+    "cook_url": "https://www.cookpolitical.com/house/race/482546",
+    "candidates": [
+      {
+        "first_name": "Cory",
+        "last_name": "Mills",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "FL",
+    "district": 9,
+    "cook_rating": "likely_r",
+    "pvi": "R+8",
+    "cook_url": "https://www.cookpolitical.com/house/race/482556",
+    "candidates": [
+      {
+        "first_name": "Darren",
+        "last_name": "Soto",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "SOTO, Darren Michael, a Representative from Florida; born in Ringwood, Passaic County, N.J., February 25, 1978; B.A., Rutgers College, New Brunswick , N.J., 2000; J.D., George Washington University, Washington, D.C., 2004; lawyer, private practice; financial analyst; member of the Florida state house of representatives, 2007-2012; member of the Florida state senate, 2012-2016; deputy minority whip, 2012-2014; elected as a Democrat to the One Hundred Fifteenth Congress (January 3, 2017-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "FL",
+    "district": 13,
+    "cook_rating": "likely_r",
+    "pvi": "R+6",
+    "cook_url": "https://www.cookpolitical.com/house/race/482576",
+    "candidates": [
+      {
+        "first_name": "Anna Paulina",
+        "last_name": "Luna",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "FL",
+    "district": 14,
+    "cook_rating": "lean_r",
+    "pvi": "R+4",
+    "cook_url": "https://www.cookpolitical.com/house/race/482581",
+    "candidates": [
+      {
+        "first_name": "Kathy",
+        "last_name": "Castor",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "CASTOR, Kathy, a Representative from Florida; born in Miami, Miami-Dade County, Fla., August 20, 1966; B.A., Emory University, Atlanta, Ga., 1988; J.D., Florida State University, Tallahassee, Fla., 1991; lawyer, private practice; member of the Hillsborough County (Fla.) board of commissioners, 2002 to 2006; unsuccessful candidate for election to the Florida state senate in 2000; elected as a Democrat to the One Hundred Tenth and to the five succeeding Congresses (January 3, 2007-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "FL",
+    "district": 22,
+    "cook_rating": "lean_r",
+    "pvi": "R+4",
+    "cook_url": "https://www.cookpolitical.com/house/race/482621",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "FL",
+    "district": 25,
+    "cook_rating": "tossup",
+    "pvi": "R+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/482636",
+    "candidates": [
+      {
+        "first_name": "Jared",
+        "last_name": "Moskowitz",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "FL",
+    "district": 27,
+    "cook_rating": "likely_r",
+    "pvi": "R+6",
+    "cook_url": "https://www.cookpolitical.com/house/race/482646",
+    "candidates": [
+      {
+        "first_name": "Maria Elvira",
+        "last_name": "Salazar",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "SALAZAR, Maria Elvira, a Representative from Florida; born in Miami, Miami-Dade County, Fla., November 1, 1961; graduated from the Deerborne School, Coral Gables, Fla., 1979; B.A., University of Miami, Coral Gables, Fla., 1983; M.P.A., Harvard University, Cambridge, Mass., 1995; journalist; unsuccessful candidate for election to the One Hundred Sixteenth Congress in 2018; elected as a Republican to the One Hundred Seventeenth Congress (January 3, 2021–present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "IA",
+    "district": 1,
+    "cook_rating": "tossup",
+    "pvi": "R+4",
+    "cook_url": "https://www.cookpolitical.com/house/race/483086",
+    "candidates": [
+      {
+        "first_name": "Mariannette",
+        "last_name": "Miller-Meeks",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "MILLER-MEEKS, Mariannette, a Representative from Iowa; born in Herlong, Lassen County, Calif., September 6, 1955; attended San Antonio Junior College, San Antonio, Texas; B.S.N., Texas Christian University, Fort Worth, Texas, 1976; M.S., University of Southern California, Los Angeles, Calif., 1980; M.D., University of Texas Health Science Center, San Antonio, Texas, 1986; United States Army; United States Army Reserve; assistant professor, University of Michigan, 1991-1994; assistant professor, University of Iowa, 1994 – 1997; ophthalmologist; director, Iowa Department of Public Health, 2010 – 2013; unsuccessful candidate for election to the One Hundred Eleventh Congress in 2008, One Hundred Twelfth Congress in 2010, and One Hundred Fourteenth Congress in 2014; member of the Iowa state senate, 2019 – 2020; elected as a Republican to the One Hundred Seventeenth Congress (January 3, 2021 – Present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "IA",
+    "district": 2,
+    "cook_rating": "likely_r",
+    "pvi": "R+4",
+    "cook_url": "https://www.cookpolitical.com/house/race/483091",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "IA",
+    "district": 3,
+    "cook_rating": "tossup",
+    "pvi": "R+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/483096",
+    "candidates": [
+      {
+        "first_name": "Zach",
+        "last_name": "Nunn",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "IN",
+    "district": 1,
+    "cook_rating": "likely_d",
+    "pvi": "D+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/483041",
+    "candidates": [
+      {
+        "first_name": "Frank J.",
+        "last_name": "Mrvan",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "MRVAN, Frank J., a Representative from Indiana; born in Hammond, Lake County, Ind., April 16, 1969; graduated from Oliver P. Morton High School, Hammond, Ind., 1987; B.A., Ball State University, Muncie, Ind., 1992; sales representative; mortgage broker; trustee, North Township, Ind., 2005-2021; elected as a Democrat to the One Hundred Seventeenth Congress (January 3, 2021–present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "ME",
+    "district": 2,
+    "cook_rating": "likely_r",
+    "pvi": "R+4",
+    "cook_url": "https://www.cookpolitical.com/house/race/483191",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "MI",
+    "district": 4,
+    "cook_rating": "likely_r",
+    "pvi": "R+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/483296",
+    "candidates": [
+      {
+        "first_name": "Bill",
+        "last_name": "Huizenga",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "HUIZENGA, Bill, a Representative from Michigan; born in Zeeland, Ottawa County, Mich., January 31, 1969; graduated from Holland Christian High School, Holland, Mich., 1987; B.A., Calvin College, Grand Rapids, Mich., 1991; administrator; business owner; staff, United States Representative Peter Hoekstra of Michigan, 1996-2002; member of the Michigan state house of representatives, 2003-2008; elected as a Republican to the One Hundred Twelfth and to the three succeeding Congresses (January 3, 2011-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "MI",
+    "district": 7,
+    "cook_rating": "tossup",
+    "pvi": "EVEN",
+    "cook_url": "https://www.cookpolitical.com/house/race/483311",
+    "candidates": [
+      {
+        "first_name": "Tom",
+        "last_name": "Barrett",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "MI",
+    "district": 8,
+    "cook_rating": "lean_d",
+    "pvi": "R+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/483316",
+    "candidates": [
+      {
+        "first_name": "Kristen McDonald",
+        "last_name": "Rivet",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "MI",
+    "district": 10,
+    "cook_rating": "lean_r",
+    "pvi": "R+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/483326",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "MN",
+    "district": 2,
+    "cook_rating": "likely_d",
+    "pvi": "D+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/483351",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "MT",
+    "district": 1,
+    "cook_rating": "likely_r",
+    "pvi": "R+5",
+    "cook_url": "https://www.cookpolitical.com/house/race/483446",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "NC",
+    "district": 1,
+    "cook_rating": "lean_r",
+    "pvi": "R+5",
+    "cook_url": "https://www.cookpolitical.com/house/race/483706",
+    "candidates": [
+      {
+        "first_name": "Don",
+        "last_name": "Davis",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NC",
+    "district": 11,
+    "cook_rating": "likely_r",
+    "pvi": "R+5",
+    "cook_url": "https://www.cookpolitical.com/house/race/483756",
+    "candidates": [
+      {
+        "first_name": "Chuck",
+        "last_name": "Edwards",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NE",
+    "district": 2,
+    "cook_rating": "lean_d",
+    "pvi": "D+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/483461",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "NH",
+    "district": 1,
+    "cook_rating": "likely_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/483491",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "NH",
+    "district": 2,
+    "cook_rating": "likely_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/483496",
+    "candidates": [
+      {
+        "first_name": "Maggie",
+        "last_name": "Goodlander",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NJ",
+    "district": 7,
+    "cook_rating": "tossup",
+    "pvi": "EVEN",
+    "cook_url": "https://www.cookpolitical.com/house/race/483531",
+    "candidates": [
+      {
+        "first_name": "Thomas Kean",
+        "last_name": "Jr.",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NJ",
+    "district": 9,
+    "cook_rating": "likely_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/483541",
+    "candidates": [
+      {
+        "first_name": "Nellie",
+        "last_name": "Pou",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NM",
+    "district": 2,
+    "cook_rating": "lean_d",
+    "pvi": "EVEN",
+    "cook_url": "https://www.cookpolitical.com/house/race/483566",
+    "candidates": [
+      {
+        "first_name": "Gabe",
+        "last_name": "Vasquez",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NV",
+    "district": 1,
+    "cook_rating": "likely_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/483471",
+    "candidates": [
+      {
+        "first_name": "Dina",
+        "last_name": "Titus",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NV",
+    "district": 3,
+    "cook_rating": "lean_d",
+    "pvi": "D+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/483481",
+    "candidates": [
+      {
+        "first_name": "Susie",
+        "last_name": "Lee",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "LEE, Susie, a Representative from Nevada; born in Canton, Stark County, Ohio, November 7, 1966; graduated from McKinley High School, Canton, Ohio; B.A., Carnegie Mellon University, Pittsburgh, Pa., 1989; M.P.M., Carnegie Mellon University, Pittsburgh, Pa., 1990; nonprofit executive; elected as a Democrat to the One Hundred Sixteenth Congress (January 3, 2019-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NV",
+    "district": 4,
+    "cook_rating": "likely_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/483486",
+    "candidates": [
+      {
+        "first_name": "Steven",
+        "last_name": "Horsford",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "HORSFORD, Steven, a Representative from Nevada; born in Las Vegas, Clark County, Nev., April 29, 1973; graduated from Clark High School, Las Vegas, Nev.; attended University of Nevada, Reno, Nev.; professional advocate; business executive; member of the Nevada state senate, 2004-2012; majority leader, 2009-2012; elected as a Democrat to the One Hundred Thirteenth Congress (January 3, 2013-January 3, 2015); unsuccessful candidate for reelection to the One Hundred Fourteenth Congress in 2014; elected as a Democrat to the One Hundred Sixteenth Congress (January 3, 2019-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NY",
+    "district": 3,
+    "cook_rating": "lean_d",
+    "pvi": "EVEN",
+    "cook_url": "https://www.cookpolitical.com/house/race/483586",
+    "candidates": [
+      {
+        "first_name": "Tom",
+        "last_name": "Suozzi",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NY",
+    "district": 4,
+    "cook_rating": "lean_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/483591",
+    "candidates": [
+      {
+        "first_name": "Laura",
+        "last_name": "Gillen",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NY",
+    "district": 17,
+    "cook_rating": "tossup",
+    "pvi": "D+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/483656",
+    "candidates": [
+      {
+        "first_name": "Mike",
+        "last_name": "Lawler",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NY",
+    "district": 19,
+    "cook_rating": "lean_d",
+    "pvi": "D+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/483666",
+    "candidates": [
+      {
+        "first_name": "Josh",
+        "last_name": "Riley",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "OH",
+    "district": 1,
+    "cook_rating": "lean_d",
+    "pvi": "R+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/483781",
+    "candidates": [
+      {
+        "first_name": "Greg",
+        "last_name": "Landsman",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "OH",
+    "district": 9,
+    "cook_rating": "tossup",
+    "pvi": "R+5",
+    "cook_url": "https://www.cookpolitical.com/house/race/483821",
+    "candidates": [
+      {
+        "first_name": "Marcy",
+        "last_name": "Kaptur",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "KAPTUR, Marcia Carolyn (Marcy), a Representative from Ohio; born in Toledo, Lucas County, Ohio, June 17, 1946; graduated from St. Ursula Academy, Toledo, Ohio, 1964; B.A., University of Wisconsin, Madison, Wis., 1968; M.A., University of Michigan, Ann Arbor, Mich., 1974; attended the University of Manchester, Manchester, England, 1974; post-graduate studies, Massachusetts Institute of Technology, Cambridge, Mass., 1981; urban planner, Toledo-Lucas County, Ohio, Plan Commissions, 1969-1975; director of planning, National Center for Urban Ethnic Affairs, 1975-1977; assistant director for urban affairs, domestic policy staff, Executive Office of the President, 1977-1979; elected as a Democrat to the Ninety-eighth and to the seventeen succeeding Congresses (January 3, 1983-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "OH",
+    "district": 13,
+    "cook_rating": "likely_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/483841",
+    "candidates": [
+      {
+        "first_name": "Emilia",
+        "last_name": "Sykes",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "OR",
+    "district": 5,
+    "cook_rating": "likely_d",
+    "pvi": "D+4",
+    "cook_url": "https://www.cookpolitical.com/house/race/483901",
+    "candidates": [
+      {
+        "first_name": "Janelle",
+        "last_name": "Bynum",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "PA",
+    "district": 1,
+    "cook_rating": "likely_r",
+    "pvi": "D+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/483911",
+    "candidates": [
+      {
+        "first_name": "Brian",
+        "last_name": "Fitzpatrick",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "FITZPATRICK, Brian K., (brother of Michael G. Fitzpatrick), a Representative from Pennsylvania; born in Philadelphia, Philadelphia County, Pa., December 17, 1973; graduated from Bishop Egan High School, Fairless Hills, Pa., 1992; B.S.B.A., La Salle University, Philadelphia, Pa., 1996; M.B.A., Pennsylvania State University, University Park, Pa., 2001; J.D., Dickinson School of Law, Pennsylvania State University, Carlisle, Pa., 2001; judicial clerk, Eastern District of Pennsylvania, 2001-2002; special agent, Federal Bureau of Investigation; special assistant United States attorney for the Eastern District of Pennsylvania; lawyer, private practice; accountant; elected as a Republican to the One Hundred Fifteenth Congress (January 3, 2017-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "PA",
+    "district": 7,
+    "cook_rating": "tossup",
+    "pvi": "R+1",
+    "cook_url": "https://www.cookpolitical.com/house/race/483941",
+    "candidates": [
+      {
+        "first_name": "Ryan",
+        "last_name": "Mackenzie",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "PA",
+    "district": 8,
+    "cook_rating": "tossup",
+    "pvi": "R+4",
+    "cook_url": "https://www.cookpolitical.com/house/race/483946",
+    "candidates": [
+      {
+        "first_name": "Rob",
+        "last_name": "Bresnahan",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "PA",
+    "district": 10,
+    "cook_rating": "tossup",
+    "pvi": "R+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/483956",
+    "candidates": [
+      {
+        "first_name": "Scott",
+        "last_name": "Perry",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "PERRY, Scott, a Representative from Pennsylvania; born in San Diego, San Diego County, Calif., May 27, 1962; B.S., Pennsylvania State University, University Park, Pa., 1991; Pennsylvania Army National Guard, 1980-present; business owner; member of the Pennsylvania state house of representatives, 2007-2012; elected as a Republican to the One Hundred Thirteenth and to the two succeeding Congresses (January 3, 2013-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 15,
+    "cook_rating": "likely_r",
+    "pvi": "R+7",
+    "cook_url": "https://www.cookpolitical.com/house/race/485291",
+    "candidates": [
+      {
+        "first_name": "Monica De La",
+        "last_name": "Cruz",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 23,
+    "cook_rating": "likely_r",
+    "pvi": "R+7",
+    "cook_url": "https://www.cookpolitical.com/house/race/485331",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 28,
+    "cook_rating": "lean_d",
+    "pvi": "R+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/485356",
+    "candidates": [
+      {
+        "first_name": "Henry",
+        "last_name": "Cuellar",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "CUELLAR, Henry, a Representative from Texas; born in Laredo, Webb County, Tex., September 19, 1955; graduated from J.W. Nixon High School, Laredo, Tex., 1974; A.A., Laredo Community College, Laredo, Tex., 1976; B.S., Georgetown University, Washington, D.C., 1978; J.D., University of Texas, Austin, Tex., 1981; M.A., Texas A&amp;M International University, Laredo, Tex., 1982; Ph.D., University of Texas, Austin, Tex., 1998; lawyer, private practice; member of the Texas state house of representatives, 1987-2001; unsuccessful candidate for nomination to the United States of Representatives in 2002; Texas secretary of state, 2001; elected as a Democrat to the One Hundred Ninth and to the six succeeding Congresses (January 3, 2005-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 34,
+    "cook_rating": "tossup",
+    "pvi": "R+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/485386",
+    "candidates": [
+      {
+        "first_name": "Vicente",
+        "last_name": "Gonzalez",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": "GONZALEZ, Vicente Jr., a Representative from Texas; born in Corpus Christi, Nueces County, Tex., September 4, 1967; earned G.E.D., 1985; B.A., Embry-Riddle Aeronautical University, Naval Air Station, Corpus Christi, Tex., 1992; J.D., Texas Wesleyan School of Law, Fort Worth, Tex., 1996; lawyer, private practice; elected as a Democrat to the One Hundred Fifteenth Congress (January 3, 2017-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 35,
+    "cook_rating": "likely_r",
+    "pvi": "R+4",
+    "cook_url": "https://www.cookpolitical.com/house/race/485391",
+    "candidates": []
+  },
+  {
+    "chamber": "house",
+    "state": "VA",
+    "district": 1,
+    "cook_rating": "lean_r",
+    "pvi": "R+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/485436",
+    "candidates": [
+      {
+        "first_name": "Rob",
+        "last_name": "Wittman",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "WITTMAN, Robert J., a Representative from Virginia; born in Washington, D.C., February 3, 1959; B.S., Virginia Polytechnic Institute, Blacksburg, Va., 1981; M.P.H., University of North Carolina, Chapel Hill, N.C., 1990; Ph.D., Virginia Commonwealth University, Richmond, Va., 2002; shellfish sanitation; member of the Montross, Va., town council, 1986-1996; Mayor of Montross, Va., 1992-1996; member of the Westmoreland County, Va., board of supervisors, 1996-2005; chairman of the Westmoreland County Va., board of supervisors, 2004-2005; member of the Virginia house of delegates, 2006-2007; elected as a Republican to the One Hundred Tenth Congress, by special election, to fill the vacancy caused by the death of United States Representative Jo Ann Davis, and to the five succeeding Congresses (December 11, 2007-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "VA",
+    "district": 2,
+    "cook_rating": "tossup",
+    "pvi": "EVEN",
+    "cook_url": "https://www.cookpolitical.com/house/race/485441",
+    "candidates": [
+      {
+        "first_name": "Jen",
+        "last_name": "Kiggans",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "VA",
+    "district": 7,
+    "cook_rating": "likely_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/485466",
+    "candidates": [
+      {
+        "first_name": "Eugene",
+        "last_name": "Vindman",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "WA",
+    "district": 3,
+    "cook_rating": "tossup",
+    "pvi": "R+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/485501",
+    "candidates": [
+      {
+        "first_name": "Marie Gluesenkamp",
+        "last_name": "Perez",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "WI",
+    "district": 1,
+    "cook_rating": "likely_r",
+    "pvi": "R+2",
+    "cook_url": "https://www.cookpolitical.com/house/race/485551",
+    "candidates": [
+      {
+        "first_name": "Bryan",
+        "last_name": "Steil",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "STEIL, Bryan, a Representative from Wisconsin; born in Janesville, Rock County, Wis., March 3, 1981; graduated from Joseph A. Craig High School, Janesville, Wis., 1999; B.S. Georgetown University, Washington, D.C., 2003; J.D., University of Wisconsin, Madison, Wis., 2007; staff, United States Representative Paul D. Ryan of Wisconsin, 2003-2004; lawyer; elected as a Republican to the One Hundred Sixteenth Congress (January 3, 2019-present)."
+      }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "WI",
+    "district": 3,
+    "cook_rating": "tossup",
+    "pvi": "R+3",
+    "cook_url": "https://www.cookpolitical.com/house/race/485561",
+    "candidates": [
+      {
+        "first_name": "Derrick Van",
+        "last_name": "Orden",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "AK",
+    "district": null,
+    "cook_rating": "lean_r",
+    "pvi": "R+6",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488531",
+    "candidates": [
+      {
+        "first_name": "Dan",
+        "last_name": "Sullivan",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "GA",
+    "district": null,
+    "cook_rating": "lean_d",
+    "pvi": "R+1",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488561",
+    "candidates": [
+      {
+        "first_name": "Jon",
+        "last_name": "Ossoff",
+        "party": "D",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "IA",
+    "district": null,
+    "cook_rating": "likely_r",
+    "pvi": "R+6",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488566",
+    "candidates": []
   },
   {
     "chamber": "senate",
@@ -40,6 +1041,76 @@
     "cook_rating": "tossup",
     "pvi": "EVEN",
     "cook_url": "https://www.cookpolitical.com/senate/race/488606",
+    "candidates": []
+  },
+  {
+    "chamber": "senate",
+    "state": "MN",
+    "district": null,
+    "cook_rating": "likely_d",
+    "pvi": "D+3",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488611",
+    "candidates": []
+  },
+  {
+    "chamber": "senate",
+    "state": "NC",
+    "district": null,
+    "cook_rating": "lean_d",
+    "pvi": "R+1",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488626",
+    "candidates": []
+  },
+  {
+    "chamber": "senate",
+    "state": "NE",
+    "district": null,
+    "cook_rating": "likely_r",
+    "pvi": "R+10",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488631",
+    "candidates": [
+      {
+        "first_name": "Pete",
+        "last_name": "Ricketts",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "RICKETTS, John Peter (Pete), a Senator from Nebraska; born in Nebraska City, Nebr., August 19, 1964; graduated Westside High School, Omaha, Nebr., 1982; B.A., biology, University of Chicago, 1986; M.B.A., marketing and finance, University of Chicago, 1991; online brokerage firm president and chief operating officer; co-owner of Chicago Cubs baseball team; unsuccessful candidate for the United States Senate in 2006; governor of Nebraska 2015-2023; appointed as a Republican to the United States Senate on January 12, 2023, to fill the vacancy caused by the resignation of Benjamin Sasse; took the oath of office on January 23, 2023; subsequently elected in the November 5, 2024 special election to fill the unexpired term ending January 3, 2027."
+      }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "NH",
+    "district": null,
+    "cook_rating": "lean_d",
+    "pvi": "D+2",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488636",
+    "candidates": []
+  },
+  {
+    "chamber": "senate",
+    "state": "OH",
+    "district": null,
+    "cook_rating": "tossup",
+    "pvi": "R+5",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488651",
+    "candidates": [
+      {
+        "first_name": "Jon",
+        "last_name": "Husted",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": null
+      }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "TX",
+    "district": null,
+    "cook_rating": "lean_r",
+    "pvi": "R+6",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488686",
     "candidates": []
   }
 ]

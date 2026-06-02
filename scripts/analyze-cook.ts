@@ -181,10 +181,18 @@ function parseDetail(html: string, idx: IndexRace): RaceRecord | null {
   let state = "";
   let district: number | null = null;
   if (idx.chamber === "house") {
-    const m = title.match(/^([A-Z]{2})-(\d+)/);
+    // Titles vary: "CA-13 2026 | ...", "Nevada NV-03 House : 2026 | ...",
+    // "AK-AL 2026 | ..." for at-large states.
+    let m = title.match(/\b([A-Z]{2})-(\d+)\b/);
     if (m) {
       state = m[1];
       district = parseInt(m[2], 10);
+    } else {
+      const al = title.match(/\b([A-Z]{2})-AL\b/);
+      if (al) {
+        state = al[1];
+        district = 0; // at-large = "00"
+      }
     }
   } else {
     // Senate title like "Maine Senate 2026"
