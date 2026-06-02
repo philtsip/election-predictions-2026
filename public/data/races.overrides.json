@@ -1,1 +1,216 @@
-[]
+[
+  {
+    "chamber": "house",
+    "state": "AK",
+    "district": 0,
+    "candidates": [
+      { "first_name": "Nick", "last_name": "Begich III", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Representative for Alaska's at-large district, first elected in 2024 after defeating Mary Peltola. Businessman and member of the prominent Begich political family." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "IA",
+    "district": 1,
+    "candidates": [
+      { "first_name": "Mariannette", "last_name": "Miller-Meeks", "party": "R", "is_incumbent": true, "bio": "MILLER-MEEKS, Mariannette, a Representative from Iowa; born in Herlong, Lassen County, Calif., September 6, 1955; attended San Antonio Junior College, San Antonio, Texas; B.S.N., Texas Christian University, Fort Worth, Texas, 1976; M.S., University of Southern California, Los Angeles, Calif., 1980; M.D., University of Texas Health Science Center, San Antonio, Texas, 1986; United States Army; United States Army Reserve; assistant professor, University of Michigan, 1991-1994; assistant professor, University of Iowa, 1994 – 1997; ophthalmologist; director, Iowa Department of Public Health, 2010 – 2013; unsuccessful candidate for election to the One Hundred Eleventh Congress in 2008, One Hundred Twelfth Congress in 2010, and One Hundred Fourteenth Congress in 2014; member of the Iowa state senate, 2019 – 2020; elected as a Republican to the One Hundred Seventeenth Congress (January 3, 2021 – Present)." },
+      { "first_name": "Christina", "last_name": "Bohannan", "party": "D", "is_incumbent": false, "bio": "University of Iowa law professor and former state representative; presumptive Democratic nominee (frontrunner ahead of the June 2, 2026 primary). Making her third run after losing to Miller-Meeks by under 800 votes in 2024." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "IA",
+    "district": 3,
+    "candidates": [
+      { "first_name": "Zach", "last_name": "Nunn", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Representative for Iowa's 3rd district, first elected in 2022. Former state senator and U.S. Air Force veteran." },
+      { "first_name": "Sarah", "last_name": "Trone Garriott", "party": "D", "is_incumbent": false, "bio": "Democratic Iowa state senator and presumptive Democratic nominee (frontrunner ahead of the June 2026 primary after rivals dropped out and endorsed her)." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "IN",
+    "district": 1,
+    "candidates": [
+      { "first_name": "Frank J.", "last_name": "Mrvan", "party": "D", "is_incumbent": true, "bio": "Democratic U.S. Representative for Indiana's 1st district (Northwest Indiana), first elected in 2020. Former Calumet Township trustee." },
+      { "first_name": "Randy", "last_name": "Niemeyer", "party": "R", "is_incumbent": false, "bio": "Republican nominee; Lake County councilor and Lake County GOP chair who won the May 2026 primary. Was also the 2024 GOP nominee against Mrvan." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NC",
+    "district": 1,
+    "candidates": [
+      { "first_name": "Don", "last_name": "Davis", "party": "D", "is_incumbent": true, "bio": "Democratic U.S. Representative for North Carolina's 1st district, first elected in 2022. Former state senator and U.S. Air Force veteran; among the most vulnerable House Democrats after redistricting." },
+      { "first_name": "Laurie", "last_name": "Buckhout", "party": "R", "is_incumbent": false, "bio": "Republican nominee; retired Army colonel who narrowly lost to Davis in 2024, won the March 2026 GOP primary, setting up a rematch in the redrawn, more Republican-leaning district." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NC",
+    "district": 11,
+    "candidates": [
+      { "first_name": "Chuck", "last_name": "Edwards", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Representative for North Carolina's 11th district (western NC), first elected in 2022. Former state senator and business owner." },
+      { "first_name": "Jamie", "last_name": "Ager", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; Fairview farmer and small-business owner who won the March 2026 primary with about 65% and was added to the DCCC 'Red to Blue' program." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "NE",
+    "district": 2,
+    "candidates": [
+      { "first_name": "Denise", "last_name": "Powell", "party": "D", "is_incumbent": false, "bio": "Democratic nominee for the open Omaha-area 'blue dot' 2nd district; won a crowded May 2026 primary. The seat is open after Republican Rep. Don Bacon's retirement." },
+      { "first_name": "Brinker", "last_name": "Harding", "party": "R", "is_incumbent": false, "bio": "Republican nominee; Omaha city councilman who ran unopposed for the GOP nomination and is endorsed by President Trump." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "OH",
+    "district": 1,
+    "candidates": [
+      { "first_name": "Greg", "last_name": "Landsman", "party": "D", "is_incumbent": true, "bio": "Democratic U.S. Representative for Ohio's 1st district (Cincinnati area), first elected in 2022. Former Cincinnati city councilman and schoolteacher." },
+      { "first_name": "Eric", "last_name": "Conroy", "party": "R", "is_incumbent": false, "bio": "Republican nominee; won the May 2026 GOP primary with President Trump's endorsement to challenge Landsman in the gerrymandered, more Republican-leaning district." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "OH",
+    "district": 9,
+    "candidates": [
+      { "first_name": "Marcy", "last_name": "Kaptur", "party": "D", "is_incumbent": true, "bio": "KAPTUR, Marcia Carolyn (Marcy), a Representative from Ohio; born in Toledo, Lucas County, Ohio, June 17, 1946; graduated from St. Ursula Academy, Toledo, Ohio, 1964; B.A., University of Wisconsin, Madison, Wis., 1968; M.A., University of Michigan, Ann Arbor, Mich., 1974; attended the University of Manchester, Manchester, England, 1974; post-graduate studies, Massachusetts Institute of Technology, Cambridge, Mass., 1981; urban planner, Toledo-Lucas County, Ohio, Plan Commissions, 1969-1975; director of planning, National Center for Urban Ethnic Affairs, 1975-1977; assistant director for urban affairs, domestic policy staff, Executive Office of the President, 1977-1979; elected as a Democrat to the Ninety-eighth and to the seventeen succeeding Congresses (January 3, 1983-present)." },
+      { "first_name": "Derek", "last_name": "Merrin", "party": "R", "is_incumbent": false, "bio": "Republican nominee; former state representative who won the May 2026 GOP primary, setting up a rematch after losing to Kaptur by roughly 2,400 votes in 2024." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "OR",
+    "district": 5,
+    "candidates": [
+      { "first_name": "Janelle", "last_name": "Bynum", "party": "D", "is_incumbent": true, "bio": "Democratic U.S. Representative for Oregon's 5th district, first elected in 2024 after defeating Republican Lori Chavez-DeRemer. Former state representative." },
+      { "first_name": "Patti", "last_name": "Adair", "party": "R", "is_incumbent": false, "bio": "Republican nominee; Deschutes County commissioner who won the May 2026 GOP primary with about 57%." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "PA",
+    "district": 1,
+    "candidates": [
+      { "first_name": "Brian", "last_name": "Fitzpatrick", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Representative for Pennsylvania's 1st district (Bucks County), first elected in 2016. Former FBI agent and co-chair of the Problem Solvers Caucus." },
+      { "first_name": "Bob", "last_name": "Harvie", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; vice chair of the Bucks County Board of Commissioners who won the May 2026 primary and was added to the DCCC 'Red to Blue' program." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "PA",
+    "district": 7,
+    "candidates": [
+      { "first_name": "Ryan", "last_name": "Mackenzie", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Representative for Pennsylvania's 7th district (Lehigh Valley), first elected in 2024 by defeating Democrat Susan Wild. Former state representative." },
+      { "first_name": "Bob", "last_name": "Brooks", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; retired firefighter and firefighters-union president who won the May 2026 primary with endorsements from Bernie Sanders and Gov. Josh Shapiro." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "PA",
+    "district": 8,
+    "candidates": [
+      { "first_name": "Rob", "last_name": "Bresnahan", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Representative for Pennsylvania's 8th district (Scranton/Wilkes-Barre), first elected in 2024. Businessman who flipped the seat from Democrat Matt Cartwright." },
+      { "first_name": "Paige", "last_name": "Cognetti", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; mayor of Scranton, unopposed in the May 2026 primary. Campaigning on Bresnahan's congressional stock-trading record." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "PA",
+    "district": 10,
+    "candidates": [
+      { "first_name": "Scott", "last_name": "Perry", "party": "R", "is_incumbent": true, "bio": "PERRY, Scott, a Representative from Pennsylvania; born in San Diego, San Diego County, Calif., May 27, 1962; B.S., Pennsylvania State University, University Park, Pa., 1991; Pennsylvania Army National Guard, 1980-present; business owner; member of the Pennsylvania state house of representatives, 2007-2012; elected as a Republican to the One Hundred Thirteenth and to the two succeeding Congresses (January 3, 2013-present)." },
+      { "first_name": "Janelle", "last_name": "Stelson", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; former WGAL news anchor who won the May 2026 primary by a wide margin, setting up a rematch after losing to Perry by about 1 point in 2024." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 15,
+    "candidates": [
+      { "first_name": "Monica", "last_name": "De La Cruz", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Representative for Texas's 15th district (South Texas), first elected in 2022. First Republican to hold the seat." },
+      { "first_name": "Bobby", "last_name": "Pulido", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; Tejano music star who won the March 2026 Democratic primary with about 68%." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 23,
+    "candidates": [
+      { "first_name": "Brandon", "last_name": "Herrera", "party": "R", "is_incumbent": false, "bio": "Republican nominee; gun-rights YouTuber ('The AK Guy') who advanced for the open seat after Rep. Tony Gonzales withdrew and later resigned in 2026." },
+      { "first_name": "Katy", "last_name": "Padilla Stout", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; won the March 2026 Democratic primary for the open West Texas 23rd district seat." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 28,
+    "candidates": [
+      { "first_name": "Henry", "last_name": "Cuellar", "party": "D", "is_incumbent": true, "bio": "CUELLAR, Henry, a Representative from Texas; born in Laredo, Webb County, Tex., September 19, 1955; graduated from J.W. Nixon High School, Laredo, Tex., 1974; A.A., Laredo Community College, Laredo, Tex., 1976; B.S., Georgetown University, Washington, D.C., 1978; J.D., University of Texas, Austin, Tex., 1981; M.A., Texas A&M International University, Laredo, Tex., 1982; Ph.D., University of Texas, Austin, Tex., 1998; lawyer, private practice; member of the Texas state house of representatives, 1987-2001; unsuccessful candidate for nomination to the United States of Representatives in 2002; Texas secretary of state, 2001; elected as a Democrat to the One Hundred Ninth and to the six succeeding Congresses (January 3, 2005-present)." },
+      { "first_name": "Tano", "last_name": "Tijerina", "party": "R", "is_incumbent": false, "bio": "Republican nominee; Webb County Judge who won the March 2026 GOP primary to challenge Cuellar in the redrawn, more Republican district." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 34,
+    "candidates": [
+      { "first_name": "Vicente", "last_name": "Gonzalez", "party": "D", "is_incumbent": true, "bio": "GONZALEZ, Vicente Jr., a Representative from Texas; born in Corpus Christi, Nueces County, Tex., September 4, 1967; earned G.E.D., 1985; B.A., Embry-Riddle Aeronautical University, Naval Air Station, Corpus Christi, Tex., 1992; J.D., Texas Wesleyan School of Law, Fort Worth, Tex., 1996; lawyer, private practice; elected as a Democrat to the One Hundred Fifteenth Congress (January 3, 2017-present)." },
+      { "first_name": "Eric", "last_name": "Flores", "party": "R", "is_incumbent": false, "bio": "Republican nominee; Army veteran who won the March 2026 GOP primary with Trump's endorsement, defeating former Rep. Mayra Flores in the redrawn South Texas district." }
+    ]
+  },
+  {
+    "chamber": "house",
+    "state": "TX",
+    "district": 35,
+    "candidates": [
+      { "first_name": "Johnny C.", "last_name": "Garcia", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; Bexar County sheriff's deputy who won the May 2026 Democratic runoff for the redrawn open 35th district seat (Rep. Greg Casar was drawn out)." },
+      { "first_name": "Carlos", "last_name": "De La Cruz", "party": "R", "is_incumbent": false, "bio": "Republican nominee; retired Air Force veteran who won the May 2026 GOP runoff with Trump's endorsement." }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "AK",
+    "district": null,
+    "candidates": [
+      { "first_name": "Dan", "last_name": "Sullivan", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Senator from Alaska, first elected in 2014. Former Alaska attorney general and state Department of Natural Resources commissioner; U.S. Marine Corps veteran." },
+      { "first_name": "Mary", "last_name": "Peltola", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; former U.S. Representative for Alaska's at-large district (2022-2025), the first Alaska Native elected to Congress. Lost her 2024 House reelection and is now challenging Sullivan." }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "GA",
+    "district": null,
+    "candidates": [
+      { "first_name": "Jon", "last_name": "Ossoff", "party": "D", "is_incumbent": true, "bio": "Democratic U.S. Senator from Georgia, first elected in the January 2021 runoff. Former documentary filmmaker and investigative journalist; one of the most vulnerable 2026 Democratic incumbents in a Trump-won state. Republican opponent to be decided in a June 16, 2026 runoff (Mike Collins vs. Derek Dooley)." }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "NC",
+    "district": null,
+    "candidates": [
+      { "first_name": "Roy", "last_name": "Cooper", "party": "D", "is_incumbent": false, "bio": "Democratic nominee for the open North Carolina Senate seat; former two-term governor (2017-2025) and state attorney general. Won the March 2026 Democratic primary with about 92%." },
+      { "first_name": "Michael", "last_name": "Whatley", "party": "R", "is_incumbent": false, "bio": "Republican nominee; former Republican National Committee chairman and former North Carolina GOP chair, won the March 2026 GOP primary." }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "OH",
+    "district": null,
+    "candidates": [
+      { "first_name": "Jon", "last_name": "Husted", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Senator from Ohio, appointed in 2025 to fill JD Vance's seat after Vance became Vice President. Former Ohio lieutenant governor and secretary of state; running in the 2026 special election." },
+      { "first_name": "Sherrod", "last_name": "Brown", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; former three-term U.S. Senator (2007-2025) seeking a comeback after losing to Bernie Moreno in 2024. Won the 2026 Democratic primary for the special election." }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "TX",
+    "district": null,
+    "candidates": [
+      { "first_name": "James", "last_name": "Talarico", "party": "D", "is_incumbent": false, "bio": "Democratic nominee for the open Texas Senate seat; state representative who won the March 2026 Democratic primary and set first-quarter Senate fundraising records (over $27M in Q1 2026)." },
+      { "first_name": "Ken", "last_name": "Paxton", "party": "R", "is_incumbent": false, "bio": "Republican nominee; Texas attorney general who defeated incumbent Sen. John Cornyn 64-36 in the May 2026 GOP runoff with Trump's endorsement." }
+    ]
+  }
+]
