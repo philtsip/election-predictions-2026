@@ -67,13 +67,12 @@ function Header({
     <header className="border-b border-border/40 sticky top-0 z-30 backdrop-blur-xl bg-background/70">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-4">
         <div className="flex items-center gap-3 min-w-0">
-          <span className="pulse-dot shrink-0" aria-hidden />
           <div className="min-w-0">
-            <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-              Live · Polymarket × Kalshi
-            </div>
             <div className="font-serif text-xl sm:text-2xl leading-none truncate">
               2026 Election Predictions
+            </div>
+            <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+              Chance Dems control
             </div>
           </div>
         </div>

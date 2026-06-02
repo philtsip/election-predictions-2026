@@ -20,8 +20,6 @@ export function ChamberCard({ chamber, markets }: Props) {
   );
 
   const title = chamber === "senate" ? "Senate" : "House";
-  const seats = chamber === "senate" ? 100 : 435;
-  const majority = chamber === "senate" ? 51 : 218;
 
   const poly = polyOdds.data?.dem_prob ?? null;
   const kalshi = kalshiOdds.data?.dem_prob ?? null;
@@ -38,16 +36,9 @@ export function ChamberCard({ chamber, markets }: Props) {
       <div className="relative p-5 sm:p-7">
         <div className="flex items-baseline justify-between">
           <div>
-            <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-              Chance Dems control
-            </div>
             <h2 className="font-serif text-5xl sm:text-6xl font-normal leading-none mt-1">
               {title}
             </h2>
-          </div>
-          <div className="text-right text-[10px] uppercase tracking-widest text-muted-foreground tabular">
-            <div>{seats} seats</div>
-            <div>need {majority}</div>
           </div>
         </div>
 
