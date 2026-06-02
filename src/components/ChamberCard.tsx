@@ -1,6 +1,8 @@
 import { ArrowUpRight } from "lucide-react";
 import type { Chamber, ChamberControlMarkets } from "@/lib/types";
-import { useOdds } from "@/lib/useOdds";
+import { usePolymarketOdds } from "@/lib/useOdds";
+import { useKalshiBatch } from "@/lib/kalshiBatch";
+import { kalshiDemProb } from "@/lib/kalshi";
 import { cn } from "@/lib/cn";
 
 interface Props {
@@ -9,21 +11,16 @@ interface Props {
 }
 
 export function ChamberCard({ chamber, markets }: Props) {
-  const polyOdds = useOdds(
-    "polymarket",
+  const polyOdds = usePolymarketOdds(
     markets?.polymarket ?? null,
     `chamber-${chamber}`
   );
-  const kalshiOdds = useOdds(
-    "kalshi",
-    markets?.kalshi ?? null,
-    `chamber-${chamber}`
-  );
+  const { byTicker, isLoading: kalshiLoading } = useKalshiBatch();
 
   const title = chamber === "senate" ? "Senate" : "House";
 
   const poly = polyOdds.data?.dem_prob ?? null;
-  const kalshi = kalshiOdds.data?.dem_prob ?? null;
+  const kalshi = kalshiDemProb(markets?.kalshi ?? null, byTicker);
 
   return (
     <div className="relative rounded-2xl border border-border/60 bg-card/40 backdrop-blur-sm overflow-hidden grain">
@@ -55,7 +52,7 @@ export function ChamberCard({ chamber, markets }: Props) {
             label="Kalshi"
             markerColor="bg-[hsl(150_65%_47%)]"
             value={kalshi}
-            loading={kalshiOdds.isLoading}
+            loading={kalshiLoading}
             url={markets?.kalshi?.market_url}
           />
         </div>

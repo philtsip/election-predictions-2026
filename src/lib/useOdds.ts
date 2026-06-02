@@ -1,15 +1,18 @@
 import { useQuery, type UseQueryResult } from "@tanstack/react-query";
 import { fetchPolymarketDemProb } from "./polymarket";
-import { fetchKalshiDemProb } from "./kalshi";
-import type { MarketRef, OddsPoint, Provider } from "./types";
+import type { MarketRef, OddsPoint } from "./types";
 
-export function useOdds(
-  provider: Provider,
+/**
+ * Per-market Polymarket odds. Polymarket is fetched directly from the browser
+ * (CORS-enabled) and handles the burst fine. Kalshi is rate-limited, so it goes
+ * through a single batched request instead — see kalshiBatch.tsx.
+ */
+export function usePolymarketOdds(
   market: MarketRef | null | undefined,
   key: string
 ): UseQueryResult<OddsPoint> {
   return useQuery({
-    queryKey: ["odds", provider, key],
+    queryKey: ["odds", "polymarket", key],
     queryFn: async () => {
       if (!market) {
         return {
@@ -18,9 +21,7 @@ export function useOdds(
           source_url: "",
         } satisfies OddsPoint;
       }
-      return provider === "polymarket"
-        ? fetchPolymarketDemProb(market)
-        : fetchKalshiDemProb(market);
+      return fetchPolymarketDemProb(market);
     },
     enabled: !!market,
     staleTime: 30_000,
