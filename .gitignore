@@ -152,3 +152,4 @@ pnpm-lock.yaml
 
 # transient working files from analyze scripts
 *.partial
+.DS_Store
