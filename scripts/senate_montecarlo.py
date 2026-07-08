@@ -74,18 +74,18 @@ class Race:
 # ---------------------------------------------------------------------------
 RACES = [
     # Republican-held -> a Dem win here is a FLIP (+1 net)
-    Race("ME", "R", 0.66, 0.57),
-    Race("OH", "R", 0.55, None),
-    Race("AK", "R", 0.62, 0.60),
-    Race("NC", "R", 0.84, 0.86),
-    Race("TX", "R", 0.42, 0.42),
-    Race("IA", "R", 0.41, 0.41),
-    Race("NE", "R", 0.39, 0.35),
+    Race("ME", "R", 0.61, 0.61),
+    Race("OH", "R", 0.48, 0.54),
+    Race("AK", "R", 0.59, 0.59),
+    Race("NC", "R", 0.87, 0.87),
+    Race("TX", "R", 0.43, 0.41),
+    Race("IA", "R", 0.42, 0.42),
+    Race("NE", "R", 0.34, 0.32),
     # Democrat-held -> a Dem LOSS here is a flip the wrong way (-1 net)
-    Race("MI", "D", 0.70, 0.71),
-    Race("GA", "D", 0.86, 0.67),
+    Race("MI", "D", 0.72, 0.70),
+    Race("GA", "D", 0.86, 0.86),
     Race("NH", "D", 0.83, 0.84),
-    Race("MN", "D", 0.90, 0.92),
+    Race("MN", "D", 0.94, 0.91),
 ]
 
 # The four seats the user specifically asked about.

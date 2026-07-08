@@ -1980,14 +1980,14 @@
       "kalshi": {
         "provider": "kalshi",
         "series_ticker": "SENATEGA",
-        "event_ticker": "SENATEGA-28",
-        "ticker": "SENATEGA-28-D",
-        "market_url": "https://kalshi.com/markets/senatega/senatega-28",
+        "event_ticker": "SENATEGA-26",
+        "ticker": "SENATEGA-26-D",
+        "market_url": "https://kalshi.com/markets/senatega/senatega-26",
         "confidence": "high",
-        "note": "party-level market in series SENATEGA",
+        "note": "Corrected: raw pointed to SENATEGA-28 (2028 race). Correct 2026 ticker SENATEGA-26-D, Dem party / Jon Ossoff. Verified live Dem YES bid=0.85 ask=0.87",
         "dem_outcome": {
           "type": "market_yes",
-          "ticker": "SENATEGA-28-D"
+          "ticker": "SENATEGA-26-D"
         }
       }
     },
