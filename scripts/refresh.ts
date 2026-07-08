@@ -51,7 +51,7 @@ function deepMerge<T>(base: T, over: Partial<T>): T {
 }
 
 type Race = {
-  chamber: "senate" | "house";
+  chamber: "senate" | "house" | "governor";
   state: string;
   district: number | null;
   [k: string]: unknown;
@@ -59,6 +59,7 @@ type Race = {
 
 function raceKey(r: Race) {
   if (r.chamber === "senate") return `senate-${r.state}`;
+  if (r.chamber === "governor") return `governor-${r.state}`;
   return `house-${r.state}-${String(r.district ?? 0).padStart(2, "0")}`;
 }
 

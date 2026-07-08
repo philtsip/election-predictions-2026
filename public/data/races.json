@@ -1,5 +1,53 @@
 [
   {
+    "chamber": "governor",
+    "state": "GA",
+    "district": null,
+    "cook_rating": "tossup",
+    "pvi": null,
+    "cook_url": "https://www.cookpolitical.com/governor/race/479486",
+    "candidates": [
+      {
+        "first_name": "Keisha Lance",
+        "last_name": "Bottoms",
+        "party": "D",
+        "is_incumbent": false,
+        "bio": "Democratic nominee for the open Georgia governor seat; former mayor of Atlanta (2018-2022), won the May 2026 primary outright with about 56%."
+      },
+      {
+        "first_name": "Rick",
+        "last_name": "Jackson",
+        "party": "R",
+        "is_incumbent": false,
+        "bio": "Republican nominee; self-funded healthcare executive who spent nearly $100M of his own money to defeat Lt. Gov. Burt Jones in the June 2026 GOP runoff. Seat open after term-limited Gov. Brian Kemp."
+      }
+    ]
+  },
+  {
+    "chamber": "governor",
+    "state": "OH",
+    "district": null,
+    "cook_rating": "lean_r",
+    "pvi": null,
+    "cook_url": null,
+    "candidates": [
+      {
+        "first_name": "Amy",
+        "last_name": "Acton",
+        "party": "D",
+        "is_incumbent": false,
+        "bio": "Democratic nominee for the open Ohio governor seat; former director of the Ohio Department of Health, rose to prominence for her COVID-19 briefings alongside Gov. Mike DeWine."
+      },
+      {
+        "first_name": "Vivek",
+        "last_name": "Ramaswamy",
+        "party": "R",
+        "is_incumbent": false,
+        "bio": "Republican nominee; entrepreneur and 2024 presidential candidate endorsed by President Trump. Seat open after term-limited Gov. Mike DeWine."
+      }
+    ]
+  },
+  {
     "chamber": "house",
     "state": "AK",
     "district": 0,

@@ -1,4 +1,4 @@
-export type Chamber = "senate" | "house";
+export type Chamber = "senate" | "house" | "governor";
 export type Party = "D" | "R" | "I";
 export type CookRating =
   | "tossup"
@@ -82,11 +82,12 @@ export interface OddsPoint {
 
 export function raceKey(race: Pick<Race, "chamber" | "state" | "district">) {
   if (race.chamber === "senate") return `senate-${race.state}`;
+  if (race.chamber === "governor") return `governor-${race.state}`;
   const d = String(race.district ?? 0).padStart(2, "0");
   return `house-${race.state}-${d}`;
 }
 
 export function raceLabel(race: Race) {
-  if (race.chamber === "senate") return race.state;
+  if (race.chamber === "senate" || race.chamber === "governor") return race.state;
   return `${race.state}-${race.district}`;
 }

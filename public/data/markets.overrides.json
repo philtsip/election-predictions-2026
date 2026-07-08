@@ -329,7 +329,19 @@
           "market_id": "631057"
         }
       },
-      "kalshi": null
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEOHS",
+        "event_ticker": "SENATEOHS-26",
+        "ticker": "SENATEOHS-26-D",
+        "market_url": "https://kalshi.com/markets/senateohs/senateohs-26",
+        "confidence": "high",
+        "note": "Special-election series (SENATEOHS), distinct from the regular SENATEOH series which covers the 2028 cycle. Party-level Dem market, yes_sub_title 'Sherrod Brown'. Verified live Dem YES bid=0.53 ask=0.54",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEOHS-26-D"
+        }
+      }
     },
     "senate-TX": {
       "polymarket": {
@@ -386,6 +398,64 @@
         "dem_outcome": {
           "type": "market_yes",
           "ticker": "SENATENE-26-DOSB"
+        }
+      }
+    },
+    "governor-GA": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "629337",
+        "market_slug": "will-the-democrats-win-the-georgia-governor-race-in-2026",
+        "market_url": "https://polymarket.com/event/georgia-governor-winner-2026",
+        "event_slug": "georgia-governor-winner-2026",
+        "confidence": "high",
+        "note": "Party-level Dem market; Keisha Lance Bottoms confirmed Democratic nominee (won primary outright ~56%). Verified live YES mid=0.505",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "59980150909931986777748227027020522224275707387562276219060223816867188565245",
+          "market_id": "629337"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "GOVPARTYGA",
+        "event_ticker": "GOVPARTYGA-26",
+        "ticker": "GOVPARTYGA-26-D",
+        "market_url": "https://kalshi.com/markets/govpartyga/govpartyga-26",
+        "confidence": "high",
+        "note": "Party-level Dem market, yes_sub_title 'Keisha Lance Bottoms'. Verified live Dem YES bid=0.47 ask=0.48",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "GOVPARTYGA-26-D"
+        }
+      }
+    },
+    "governor-OH": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "629557",
+        "market_slug": "will-the-democrats-win-the-ohio-governor-race-in-2026",
+        "market_url": "https://polymarket.com/event/ohio-governor-winner-2026",
+        "event_slug": "ohio-governor-winner-2026",
+        "confidence": "high",
+        "note": "Party-level Dem market; Amy Acton confirmed Democratic nominee. Verified live YES mid=0.465",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "63255709540320761353971859526848930870803944190764324681913735372035438815215",
+          "market_id": "629557"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "GOVPARTYOH",
+        "event_ticker": "GOVPARTYOH-26",
+        "ticker": "GOVPARTYOH-26-D",
+        "market_url": "https://kalshi.com/markets/govpartyoh/govpartyoh-26",
+        "confidence": "high",
+        "note": "Party-level Dem market, yes_sub_title 'Amy Acton'. Verified live Dem YES bid=0.46 ask=0.47",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "GOVPARTYOH-26-D"
         }
       }
     }
