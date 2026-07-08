@@ -46,7 +46,12 @@ export function CandidateSheet({ race }: { race: Race }) {
             )}
           </SheetTitle>
           <SheetDescription className="uppercase tracking-widest text-[10px]">
-            {race.chamber === "senate" ? "Senate Race" : "House Race"} ·{" "}
+            {race.chamber === "senate"
+              ? "Senate Race"
+              : race.chamber === "governor"
+                ? "Governor Race"
+                : "House Race"}{" "}
+            ·{" "}
             {race.cook_url ? (
               <a
                 href={race.cook_url}

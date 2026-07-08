@@ -49,6 +49,18 @@ export default function App() {
                 includeLean={includeLean}
               />
             </ChamberBlock>
+
+            <ChamberBlock
+              title="Governor"
+              subtitle="36 seats up · tracking GA & OH"
+            >
+              <ChamberSection
+                chamber="governor"
+                races={racesQ.data}
+                markets={marketsQ.data}
+                includeLean={includeLean}
+              />
+            </ChamberBlock>
           </>
         )}
       </main>
