@@ -52,7 +52,7 @@ export default function App() {
 
             <ChamberBlock
               title="Governor"
-              subtitle="36 seats up · tracking GA & OH"
+              subtitle="36 seats up · tracking the 5 Cook toss-ups"
             >
               <ChamberSection
                 chamber="governor"

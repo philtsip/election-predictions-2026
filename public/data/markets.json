@@ -2316,7 +2316,7 @@
         "market_url": "https://polymarket.com/event/ohio-governor-winner-2026",
         "event_slug": "ohio-governor-winner-2026",
         "confidence": "high",
-        "note": "Party-level Dem market; Amy Acton confirmed Democratic nominee. Verified live YES mid=0.465",
+        "note": "Party-level Dem market; Amy Acton confirmed Democratic nominee. Re-verified 2026-07-28: link is correct (event ohio-governor-winner-2026, market 629557, YES = Dem win, clob token matches). Live Dem YES bid=0.42 ask=0.44; the sibling Rep market prices Rep at 0.555, so Polymarket internally has Dem ~0.43. That is ~7pts below Kalshi's 0.50 — a real cross-venue divergence, not a mislink. Polymarket's whole event has ~$114k volume / ~$50k liquidity vs ~$900k on the Kalshi pair.",
         "dem_outcome": {
           "type": "clob_token_yes",
           "clob_token_id": "63255709540320761353971859526848930870803944190764324681913735372035438815215",
@@ -2330,10 +2330,97 @@
         "ticker": "GOVPARTYOH-26-D",
         "market_url": "https://kalshi.com/markets/govpartyoh/govpartyoh-26",
         "confidence": "high",
-        "note": "Party-level Dem market, yes_sub_title 'Amy Acton'. Verified live Dem YES bid=0.46 ask=0.47",
+        "note": "Party-level Dem market, yes_sub_title 'Amy Acton'. Re-verified 2026-07-28: ticker is correct. Live Dem YES bid=0.49 ask=0.51; sibling GOVPARTYOH-26-R is 0.50/0.51, so the pair is internally consistent at Dem ~0.50. Kalshi carries ~$905k volume across the pair vs ~$114k on the Polymarket event, which is why Polymarket sits ~7pts lower.",
         "dem_outcome": {
           "type": "market_yes",
           "ticker": "GOVPARTYOH-26-D"
+        }
+      }
+    },
+    "governor-IA": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "629397",
+        "market_slug": "will-the-democrats-win-the-iowa-governor-race-in-2026",
+        "market_url": "https://polymarket.com/event/iowa-governor-winner-2026",
+        "event_slug": "iowa-governor-winner-2026",
+        "confidence": "high",
+        "note": "Party-level Dem market; Rob Sand is the Democratic nominee for the open seat. Verified live YES bid=0.66 ask=0.68.",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "45621938709469399887344165091123819127263258871102896783851049824656362940868",
+          "market_id": "629397"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "GOVPARTYIA",
+        "event_ticker": "GOVPARTYIA-26",
+        "ticker": "GOVPARTYIA-26-D",
+        "market_url": "https://kalshi.com/markets/govpartyia/govpartyia-26",
+        "confidence": "high",
+        "note": "Party-level Dem market, yes_sub_title 'Rob Sand'. Verified live Dem YES bid=0.63 ask=0.64.",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "GOVPARTYIA-26-D"
+        }
+      }
+    },
+    "governor-NV": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "629505",
+        "market_slug": "will-the-democrats-win-the-nevada-governor-race-in-2026",
+        "market_url": "https://polymarket.com/event/nevada-governor-winner-2026",
+        "event_slug": "nevada-governor-winner-2026",
+        "confidence": "high",
+        "note": "Party-level Dem market; Aaron Ford is the Democratic nominee challenging Gov. Joe Lombardo. Verified live YES bid=0.51 ask=0.53.",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "1246864710804983890692377994891598401616546411512113588399830364959833951829",
+          "market_id": "629505"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "GOVPARTYNV",
+        "event_ticker": "GOVPARTYNV-26",
+        "ticker": "GOVPARTYNV-26-D",
+        "market_url": "https://kalshi.com/markets/govpartynv/govpartynv-26",
+        "confidence": "high",
+        "note": "Party-level Dem market, yes_sub_title 'Aaron Ford'. Verified live Dem YES bid=0.55 ask=0.58 — wide spread, so the Kalshi mid runs a few points above Polymarket.",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "GOVPARTYNV-26-D"
+        }
+      }
+    },
+    "governor-WI": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "629720",
+        "market_slug": "will-the-democrats-win-the-wisconsin-governor-race-in-2026",
+        "market_url": "https://polymarket.com/event/wisconsin-governor-winner-2026",
+        "event_slug": "wisconsin-governor-winner-2026",
+        "confidence": "high",
+        "note": "Party-level Dem market for the open seat (Evers retiring). Nominees not yet set — the August 11, 2026 primary is pending — so this is party-level only. Verified live YES bid=0.56 ask=0.57.",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "47540146623620182724372695903724852067595146419459482790641441152489267651664",
+          "market_id": "629720"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "GOVPARTYWI",
+        "event_ticker": "GOVPARTYWI-26",
+        "ticker": "GOVPARTYWI-26-D",
+        "market_url": "https://kalshi.com/markets/govpartywi/govpartywi-26",
+        "confidence": "high",
+        "note": "Party-level Dem market; yes_sub_title is 'Democratic party' rather than a name, since the August 11, 2026 primary has not been held. Verified live Dem YES bid=0.55 ask=0.56.",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "GOVPARTYWI-26-D"
         }
       }
     }
