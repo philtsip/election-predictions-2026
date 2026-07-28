@@ -25,9 +25,57 @@
   },
   {
     "chamber": "governor",
+    "state": "IA",
+    "district": null,
+    "cook_rating": "tossup",
+    "pvi": null,
+    "cook_url": null,
+    "candidates": [
+      {
+        "first_name": "Rob",
+        "last_name": "Sand",
+        "party": "D",
+        "is_incumbent": false,
+        "bio": "Democratic nominee for the open Iowa governor seat; two-term State Auditor and the only Democrat holding statewide office in Iowa. Seat open after Gov. Kim Reynolds declined to seek re-election."
+      },
+      {
+        "first_name": "Zach",
+        "last_name": "Lahn",
+        "party": "R",
+        "is_incumbent": false,
+        "bio": "Republican nominee; businessman and school-choice advocate, co-founder of a Wichita-based private school network, who won the June 2026 GOP primary as an outsider candidate."
+      }
+    ]
+  },
+  {
+    "chamber": "governor",
+    "state": "NV",
+    "district": null,
+    "cook_rating": "tossup",
+    "pvi": null,
+    "cook_url": null,
+    "candidates": [
+      {
+        "first_name": "Aaron",
+        "last_name": "Ford",
+        "party": "D",
+        "is_incumbent": false,
+        "bio": "Democratic nominee; two-term Nevada Attorney General and former state Senate majority leader, challenging the Republican incumbent."
+      },
+      {
+        "first_name": "Joe",
+        "last_name": "Lombardo",
+        "party": "R",
+        "is_incumbent": true,
+        "bio": "Republican Governor of Nevada, elected in 2022 after serving as Clark County sheriff. The only Republican governor seeking re-election in a state Democrats carried in 2020."
+      }
+    ]
+  },
+  {
+    "chamber": "governor",
     "state": "OH",
     "district": null,
-    "cook_rating": "lean_r",
+    "cook_rating": "tossup",
     "pvi": null,
     "cook_url": null,
     "candidates": [
@@ -44,6 +92,30 @@
         "party": "R",
         "is_incumbent": false,
         "bio": "Republican nominee; entrepreneur and 2024 presidential candidate endorsed by President Trump. Seat open after term-limited Gov. Mike DeWine."
+      }
+    ]
+  },
+  {
+    "chamber": "governor",
+    "state": "WI",
+    "district": null,
+    "cook_rating": "tossup",
+    "pvi": null,
+    "cook_url": null,
+    "candidates": [
+      {
+        "first_name": "Francesca",
+        "last_name": "Hong",
+        "party": "D",
+        "is_incumbent": false,
+        "bio": "Front-runner for the Democratic nomination (Polymarket primary market ~81% as of late July 2026); state representative from Madison and restaurateur. Wisconsin's primary is August 11, 2026 — nominee not yet formally settled. Seat open after Gov. Tony Evers declined to seek a third term."
+      },
+      {
+        "first_name": "Tom",
+        "last_name": "Tiffany",
+        "party": "R",
+        "is_incumbent": false,
+        "bio": "Front-runner for the Republican nomination (Polymarket primary market ~96% as of late July 2026); U.S. Representative for Wisconsin's 7th district. Wisconsin's primary is August 11, 2026 — nominee not yet formally settled."
       }
     ]
   },
