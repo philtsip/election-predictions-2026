@@ -43,11 +43,24 @@ export function RaceRow({ race, poly, kalshi }: Props) {
       )}
     >
       <div className="flex items-center gap-2 min-w-0">
-        <span className="font-mono text-base sm:text-lg font-bold tracking-tight tabular">
-          {raceLabel(race)}
+        <span className="font-mono text-base sm:text-lg font-bold tracking-tight tabular whitespace-nowrap">
+          {race.chamber === "house" && race.district != null ? (
+            <>
+              {race.state}-
+              {/* Two-character slot: a single-digit district would otherwise
+                  pull everything after it a character to the left. */}
+              <span className="inline-block w-[2ch] text-left">
+                {race.district}
+              </span>
+            </>
+          ) : (
+            raceLabel(race)
+          )}
         </span>
         {race.chamber === "house" && race.pvi && (
-          <span className="hidden sm:inline text-[10px] tabular text-muted-foreground border border-border/60 rounded px-1.5 py-0.5">
+          // Fixed width so "R+10" and "D+2" leave the info button in the
+          // same place.
+          <span className="hidden sm:inline-flex justify-center w-11 text-[10px] tabular text-muted-foreground border border-border/60 rounded px-1.5 py-0.5">
             {race.pvi}
           </span>
         )}

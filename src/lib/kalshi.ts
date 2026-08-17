@@ -16,13 +16,30 @@ interface KalshiMarket {
   last_price_dollars?: string;
 }
 
-/** Mid of yes bid/ask in dollars (0–1), falling back to last price. */
+/**
+ * Widest yes bid/ask spread for which the midpoint is still informative.
+ * Beyond this the book is too thin to say anything (see `yesProb`).
+ */
+const MAX_MID_SPREAD = 0.1;
+
+/**
+ * P(yes) in dollars (0–1) for one market.
+ *
+ * Normally the mid of the yes bid/ask. But several of these race markets are
+ * thinly quoted — NH-1 sits at 5¢ bid / 90¢ ask — and there the midpoint (47¢)
+ * is an artifact of the empty book, not a forecast. When the spread is that
+ * wide we use the last trade instead, which is what Kalshi's own market page
+ * shows (89¢ for NH-1).
+ */
 function yesProb(m: KalshiMarket): number | null {
   const bid = num(m.yes_bid_dollars);
   const ask = num(m.yes_ask_dollars);
   const last = num(m.last_price_dollars);
-  if (bid != null && ask != null) return (bid + ask) / 2;
-  return last;
+  if (bid == null || ask == null) return last;
+  if (ask - bid > MAX_MID_SPREAD && last != null && last >= bid && last <= ask) {
+    return last;
+  }
+  return (bid + ask) / 2;
 }
 
 function num(v: string | undefined | null): number | null {
