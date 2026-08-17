@@ -27,12 +27,16 @@ export function CandidateSheet({ race }: { race: Race }) {
   return (
     <Sheet>
       <SheetTrigger asChild>
+        {/* A footnote marker on the race label rather than a button of its own:
+            top-aligned, borderless, and only as wide as the glyph. The
+            `before` pseudo-element restores a finger-sized tap target without
+            taking up any layout width. */}
         <button
           type="button"
           aria-label="Race info"
-          className="inline-flex h-6 w-6 items-center justify-center rounded-full border border-muted-foreground/30 text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors"
+          className="relative ml-0.5 inline-flex h-3 w-3 shrink-0 items-center justify-center align-top text-muted-foreground/60 hover:text-foreground transition-colors before:absolute before:-inset-2.5 before:content-['']"
         >
-          <Info className="h-3.5 w-3.5" />
+          <Info className="h-3 w-3" strokeWidth={2.25} />
         </button>
       </SheetTrigger>
       <SheetContent>
