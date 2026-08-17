@@ -11,18 +11,19 @@ const BATCH_SIZE = 80;
 
 interface KalshiMarket {
   ticker: string;
-  yes_bid_dollars?: string;
-  yes_ask_dollars?: string;
   last_price_dollars?: string;
 }
 
-/** Mid of yes bid/ask in dollars (0–1), falling back to last price. */
+/**
+ * P(yes) in dollars (0–1) for one market: the last trade, always.
+ *
+ * That is the number Kalshi's own market page reports, so the dashboard says
+ * what the site says. A bid/ask mid would disagree wherever the book is thin —
+ * NH-1 quotes 5¢ bid / 90¢ ask against a last trade of 89¢ — and the mid there
+ * describes the empty book, not the market's view.
+ */
 function yesProb(m: KalshiMarket): number | null {
-  const bid = num(m.yes_bid_dollars);
-  const ask = num(m.yes_ask_dollars);
-  const last = num(m.last_price_dollars);
-  if (bid != null && ask != null) return (bid + ask) / 2;
-  return last;
+  return num(m.last_price_dollars);
 }
 
 function num(v: string | undefined | null): number | null {

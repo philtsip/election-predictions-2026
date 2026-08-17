@@ -1,6 +1,6 @@
 import type { Chamber, MarketsFile, Race } from "@/lib/types";
 import { raceKey } from "@/lib/types";
-import { RaceRow } from "./RaceRow";
+import { RaceRow, RaceRowHeader } from "./RaceRow";
 import { RatingChip, RATING_GROUPS } from "./RatingChip";
 
 interface Props {
@@ -50,6 +50,7 @@ export function ChamberSection({ chamber, races, markets, includeLean }: Props) 
             </span>
           </div>
           <div className="rounded-xl border border-border/60 bg-card/30 overflow-hidden">
+            <RaceRowHeader />
             {g.races.map((race) => {
               const key = raceKey(race);
               const m = markets?.races?.[key];
