@@ -50,7 +50,7 @@ export function ChamberSection({ chamber, races, markets, includeLean }: Props) 
             </span>
           </div>
           <div className="rounded-xl border border-border/60 bg-card/30 overflow-hidden">
-            <RaceRowHeader />
+            <RaceRowHeader chamber={chamber} />
             {g.races.map((race) => {
               const key = raceKey(race);
               const m = markets?.races?.[key];

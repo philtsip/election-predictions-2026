@@ -1,4 +1,4 @@
-import type { MarketRef, Race } from "@/lib/types";
+import type { Chamber, MarketRef, Race } from "@/lib/types";
 import { raceKey, raceLabel } from "@/lib/types";
 import { usePolymarketOdds } from "@/lib/useOdds";
 import { useKalshiBatch } from "@/lib/kalshiBatch";
@@ -23,8 +23,21 @@ interface Props {
  * label column, the gutters and the odds columns are all trimmed to the width
  * their content actually needs and only open up from `sm` on.
  */
-const ROW_GRID =
-  "grid grid-cols-[6rem_1fr_auto] sm:grid-cols-[10rem_1fr_auto] items-center gap-2 sm:gap-5 px-2.5 sm:px-5";
+const ROW_GRID = "grid items-center gap-1.5 sm:gap-5 px-2.5 sm:px-5";
+
+/**
+ * The label column is only as wide as its chamber's widest possible label, so
+ * the bar starts as early as it can. Every label in a chamber is the same
+ * width by construction — a two-letter state code, plus a fixed two-character
+ * district slot and a fixed-width PVI chip for the House — so these are exact
+ * (measured content + a few px of slack for a fallback font).
+ */
+const LABEL_COL: Record<Chamber, string> = {
+  house: "grid-cols-[5.5rem_1fr_auto] sm:grid-cols-[9.75rem_1fr_auto]",
+  senate: "grid-cols-[3.75rem_1fr_auto] sm:grid-cols-[4.5rem_1fr_auto]",
+  governor: "grid-cols-[3.75rem_1fr_auto] sm:grid-cols-[4.5rem_1fr_auto]",
+};
+
 const ODDS_GROUP = "flex items-center gap-2 sm:gap-5";
 const ODDS_COL = "w-10 sm:w-12 text-right tabular";
 
@@ -46,6 +59,7 @@ export function RaceRow({ race, poly, kalshi }: Props) {
     <div
       className={cn(
         ROW_GRID,
+        LABEL_COL[race.chamber],
         "group py-3 border-b border-border/40 last:border-b-0 hover:bg-card/40 transition-colors"
       )}
     >
@@ -63,9 +77,6 @@ export function RaceRow({ race, poly, kalshi }: Props) {
           ) : (
             raceLabel(race)
           )}
-          {/* Superscript marker rather than a separate button: every label in a
-              group is the same width, so the markers still line up. */}
-          <CandidateSheet race={race} />
         </span>
         {race.chamber === "house" && race.pvi && (
           // Fixed width so "R+10" and "D+2" leave the info button in the
@@ -75,7 +86,7 @@ export function RaceRow({ race, poly, kalshi }: Props) {
           </span>
         )}
         {/* Fixed-width slot: races with no incumbent keep the gap so the
-            info button and the bar stay aligned across rows. */}
+            info marker and the bar stay aligned across rows. */}
         <span className="w-3.5 sm:w-4 shrink-0 flex justify-center">
           {incumbent && (
             <span
@@ -93,6 +104,9 @@ export function RaceRow({ race, poly, kalshi }: Props) {
             </span>
           )}
         </span>
+        {/* Last in the row and on the text's own baseline — everything before
+            it is fixed-width, so the markers line up down the column. */}
+        <CandidateSheet race={race} />
       </div>
 
       <div className="min-w-0">
@@ -122,11 +136,12 @@ export function RaceRow({ race, poly, kalshi }: Props) {
 }
 
 /** Column captions, rendered once at the top of each rating group. */
-export function RaceRowHeader() {
+export function RaceRowHeader({ chamber }: { chamber: Chamber }) {
   return (
     <div
       className={cn(
         ROW_GRID,
+        LABEL_COL[chamber],
         "py-2 border-b border-border/60 bg-card/50 text-[10px] uppercase tracking-wider"
       )}
     >
