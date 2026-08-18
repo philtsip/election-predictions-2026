@@ -41,9 +41,6 @@ const LABEL_COL: Record<Chamber, string> = {
 const ODDS_GROUP = "flex items-center gap-2 sm:gap-5";
 const ODDS_COL = "w-10 sm:w-12 text-right tabular";
 
-/** Past this the bar stops growing; a 100-point scale needs no more than this. */
-const BAR_WIDTH = "mx-auto w-full max-w-[22rem] lg:max-w-[26rem]";
-
 const POLY_COLOR = "text-[hsl(215_90%_66%)]";
 const KALSHI_COLOR = "text-[hsl(150_65%_52%)]";
 
@@ -110,11 +107,7 @@ export function RaceRow({ race, poly, kalshi }: Props) {
       </div>
 
       <div className="min-w-0">
-        <ProbBar
-          poly={polyOdds.data?.dem_prob}
-          kalshi={kalshiProb}
-          className={BAR_WIDTH}
-        />
+        <ProbBar poly={polyOdds.data?.dem_prob} kalshi={kalshiProb} />
       </div>
 
       <div className={ODDS_GROUP}>
