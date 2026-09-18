@@ -2423,6 +2423,93 @@
           "ticker": "GOVPARTYWI-26-D"
         }
       }
+    },
+    "senate-KS": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "630746",
+        "market_slug": "will-the-democrats-win-the-kansas-senate-race-in-2026",
+        "market_url": "https://polymarket.com/event/kansas-senate-election-winner",
+        "event_slug": "kansas-senate-election-winner",
+        "confidence": "high",
+        "note": "Party-level Dem market, grouped as 'Adam Hamilton (D)'. Verified live YES=0.275.",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "75079868093228966915894372964099062660587490227046756021175661325867722540666",
+          "market_id": "630746"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEKS",
+        "event_ticker": "SENATEKS-26",
+        "ticker": "SENATEKS-26-D",
+        "market_url": "https://kalshi.com/markets/senateks/senateks-26",
+        "confidence": "high",
+        "note": "Dem market, yes_sub_title 'Adam Hamilton'. Verified live YES last=0.27.",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEKS-26-D"
+        }
+      }
+    },
+    "senate-FL": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "631044",
+        "market_slug": "will-the-democrats-win-the-florida-senate-race-in-2026",
+        "market_url": "https://polymarket.com/event/florida-senate-election-winner",
+        "event_slug": "florida-senate-election-winner",
+        "confidence": "high",
+        "note": "Party-level Dem market for the November 3, 2026 special election, grouped as 'Angie Nixon (D)'. Verified live YES=0.09.",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "109815773012907461372639157658293071578555374097742562684476865021743386609433",
+          "market_id": "631044"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "SENATEFLS",
+        "event_ticker": "SENATEFLS-26",
+        "ticker": "SENATEFLS-26-D",
+        "market_url": "https://kalshi.com/markets/senatefls/senatefls-26",
+        "confidence": "high",
+        "note": "Special-election series (SENATEFLS, not SENATEFL — that one is the regular 2028 seat). yes_sub_title 'Angie Nixon'. Verified live YES last=0.11.",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "SENATEFLS-26-D"
+        }
+      }
+    },
+    "governor-FL": {
+      "polymarket": {
+        "provider": "polymarket",
+        "market_id": "629324",
+        "market_slug": "will-the-democrats-win-the-florida-governor-race-in-2026",
+        "market_url": "https://polymarket.com/event/florida-governor-winner-2026",
+        "event_slug": "florida-governor-winner-2026",
+        "confidence": "high",
+        "note": "Party-level Dem market for the open seat (DeSantis term-limited), grouped as 'David Jolly (D)'. Verified live YES=0.205.",
+        "dem_outcome": {
+          "type": "clob_token_yes",
+          "clob_token_id": "45666577334498374671436529469006420565255125221309505855441517627481607414492",
+          "market_id": "629324"
+        }
+      },
+      "kalshi": {
+        "provider": "kalshi",
+        "series_ticker": "GOVPARTYFL",
+        "event_ticker": "GOVPARTYFL-26",
+        "ticker": "GOVPARTYFL-26-D",
+        "market_url": "https://kalshi.com/markets/govpartyfl/govpartyfl-26",
+        "confidence": "high",
+        "note": "Party-level Dem market, yes_sub_title 'David Jolly'. Verified live YES last=0.22.",
+        "dem_outcome": {
+          "type": "market_yes",
+          "ticker": "GOVPARTYFL-26-D"
+        }
+      }
     }
   }
 }

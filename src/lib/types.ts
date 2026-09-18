@@ -5,7 +5,9 @@ export type CookRating =
   | "lean_d"
   | "lean_r"
   | "likely_d"
-  | "likely_r";
+  | "likely_r"
+  | "solid_d"
+  | "solid_r";
 
 export interface Candidate {
   first_name: string;
