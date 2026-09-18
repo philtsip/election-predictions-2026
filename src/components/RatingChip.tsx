@@ -22,6 +22,14 @@ const META: Record<CookRating, { label: string; cls: string }> = {
     label: "Likely R",
     cls: "bg-rep-soft text-rep border-rep/30 opacity-90",
   },
+  solid_d: {
+    label: "Solid D",
+    cls: "bg-dem-soft text-dem border-dem/20 opacity-80",
+  },
+  solid_r: {
+    label: "Solid R",
+    cls: "bg-rep-soft text-rep border-rep/20 opacity-80",
+  },
 };
 
 export function RatingChip({
@@ -51,4 +59,6 @@ export const RATING_GROUPS: { rating: CookRating; title: string }[] = [
   { rating: "lean_d", title: "Lean Democratic" },
   { rating: "likely_r", title: "Likely Republican" },
   { rating: "likely_d", title: "Likely Democratic" },
+  { rating: "solid_r", title: "Solid Republican" },
+  { rating: "solid_d", title: "Solid Democratic" },
 ];

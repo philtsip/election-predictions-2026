@@ -281,5 +281,41 @@
       { "first_name": "Francesca", "last_name": "Hong", "party": "D", "is_incumbent": false, "bio": "Front-runner for the Democratic nomination (Polymarket primary market ~81% as of late July 2026); state representative from Madison and restaurateur. Wisconsin's primary is August 11, 2026 — nominee not yet formally settled. Seat open after Gov. Tony Evers declined to seek a third term." },
       { "first_name": "Tom", "last_name": "Tiffany", "party": "R", "is_incumbent": false, "bio": "Front-runner for the Republican nomination (Polymarket primary market ~96% as of late July 2026); U.S. Representative for Wisconsin's 7th district. Wisconsin's primary is August 11, 2026 — nominee not yet formally settled." }
     ]
+  },
+  {
+    "chamber": "senate",
+    "state": "KS",
+    "district": null,
+    "cook_rating": "likely_r",
+    "pvi": "R+8",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488581",
+    "candidates": [
+      { "first_name": "Adam", "last_name": "Hamilton", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; United Methodist pastor who founded the Church of the Resurrection in Leawood, one of the largest Methodist congregations in the country. Won the August 4, 2026 primary with about 35% of the vote in a crowded field. No Democrat has won a Kansas Senate race since 1932." },
+      { "first_name": "Roger", "last_name": "Marshall", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Senator from Kansas, first elected in 2020 and seeking a second term. Obstetrician and former U.S. Representative for Kansas's 1st district; won the August 2026 GOP primary against minimal opposition." }
+    ]
+  },
+  {
+    "chamber": "senate",
+    "state": "FL",
+    "district": null,
+    "cook_rating": "solid_r",
+    "pvi": "R+5",
+    "cook_url": "https://www.cookpolitical.com/senate/race/488556",
+    "candidates": [
+      { "first_name": "Angie", "last_name": "Nixon", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; progressive Florida state representative from Jacksonville who won the August 18, 2026 special primary with about 56%, an upset over the far better-funded Alexander Vindman." },
+      { "first_name": "Ashley", "last_name": "Moody", "party": "R", "is_incumbent": true, "bio": "Republican U.S. Senator from Florida, appointed in January 2025 to fill the seat Marco Rubio vacated to become Secretary of State; former two-term Florida attorney general. Running in the 2026 special election for the remainder of the term." }
+    ]
+  },
+  {
+    "chamber": "governor",
+    "state": "FL",
+    "district": null,
+    "cook_rating": "likely_r",
+    "pvi": null,
+    "cook_url": null,
+    "candidates": [
+      { "first_name": "David", "last_name": "Jolly", "party": "D", "is_incumbent": false, "bio": "Democratic nominee; former U.S. Representative for Florida's 13th district (2014-2017) who was elected as a Republican, later left the party and became a prominent Trump critic. Won the August 2026 primary with about 61% and runs with former Rep. Gwen Graham." },
+      { "first_name": "Byron", "last_name": "Donalds", "party": "R", "is_incumbent": false, "bio": "Republican nominee; U.S. Representative for Florida's 19th district since 2021 and former state representative, endorsed by President Trump. Won the August 2026 primary with about 48% and runs with state Sen. Bryan Avila. Seat open after term-limited Gov. Ron DeSantis." }
+    ]
   }
 ]
